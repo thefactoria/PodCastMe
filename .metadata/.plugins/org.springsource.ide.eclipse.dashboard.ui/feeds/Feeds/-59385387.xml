@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://www.springsource.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>SpringSource.org</title>
+ <link>http://www.springsource.org</link>
+ <description>Welcome to the home of Spring, the leading platform to build and run enterprise Java applications. Led and sustained by SpringSource, Spring delivers significant benefits for many projects, increasing development productivity and runtime performance while improving test coverage and application quality.</description>
+ <language>en</language>
+<item>
+ <title>This Week in Spring - January 8th, 2013</title>
+ <link>http://www.springsource.org/node/3782</link>
+ <description>Welcome back to another installment of &lt;EM&gt;This Week in Spring&lt;/EM&gt;.   As usual, we&#039;ve got a lot to  look at, so, without further ado... 
+
+ &lt;/P&gt; 
+
+&lt;OL&gt;  &lt;LI&gt;  GigaOM has a nice roundup of some of the exciting and important tools in the   big-data ecosystem right now.
+	   There are many different tools serving different segments of the use cases, 
+	
+	&lt;a href=&quot;http://gigaom.com/2012/12/18/a-programmers-guide-to-big-data-12-tools-to-know/&quot;&gt;and of course Spring Data is mentioned in there&lt;/a&gt;, too!
+	 
+	&lt;/LI&gt;
+	 &lt;LI&gt;
+		 The &lt;EM&gt; ODBMS Industry Watch&lt;/em&gt; blog 
+			and professor Roberto V. Zicari  
+			has a nice  interview 
+			
+			 &lt;a href =&quot;http://www.odbms.org/blog/2013/01/the-spring-data-project-interview-with-david-turanski&quot;&gt;with Spring ninja David Turanski on Spring Data&lt;/a&gt;. Definitely a good read!
+ 
+		
+		 &lt;/LI&gt;	 
+
+	
+	 &lt;LI&gt; 
+	   Robin Varghese has put together a straight-forward blog on sending email with
+	&lt;a href=&quot;http://learningviacode.blogspot.com/2013/01/processing-template-text-in-spring.html&quot;&gt;dynamic 
+	templates driven  by Velocity&lt;/a&gt;. This seems to be a common use case, and it&#039;s always good to find
+	more up-to-date resources. Many people will no doubt have found Matt Raible&#039;s    
+	 post from 9 &lt;EM&gt;years&lt;/em&gt; ago on the same subject, 
+		&lt;a href=&quot;http://www.theserverside.com/news/1377021/Sending-Velocity-based-E-mail-with-Spring&quot;&gt;
+		which is also very illustrative but, alas, a little outdated&lt;/a&gt;. Nice to see this more updated approach to an old classic!
+	  &lt;/Li&gt;
+&lt;!-- 	&lt;LI&gt; sacsha  http://sacsha.blogspot.com/2013/01/spring-mvc.html  &lt;/LI&gt; --&gt;
+ &lt;LI&gt; 
+	  
+	 Hey, this is &lt;EM&gt;interesting&lt;/EM&gt;! Did you guys know there was a Spring for Delphi (also, I guess, referred to as Spring4D)? 
+	Me either... @_@  With that in mind, I found this post 
+	 introducing  &lt;a href=&quot;http://www.nickhodges.com/post/Loop-Less-with-IEnumerable-and-Spring-for-Delphi.aspx&quot;&gt;some of the collection libraries that seem both very friendly and powerful in Spring for Delphi&lt;/a&gt;. 
+ 
+	   Cool!
+ &lt;/LI&gt;
+ &lt;LI&gt; Eren Av?aro?ullar? has a nice post showing how to use &lt;A href=&quot;http://www.onlinetechvision.com/?p=721&quot;&gt;dynamic languages (in particular, Groovy) with Spring&lt;/a&gt;.
+	
+ &lt;/LI&gt;
+
+ &lt;LI&gt; 
+	Dinesh Rajput has put together a blog introducing some of the &lt;a href=&quot;http://www.dineshonjava.com/2013/01/whats-new-in-spring-batch-2xx.html#.UOwdP4lesvo&quot;&gt;features unique to the Spring Batch 2.x generation&lt;/a&gt;, which  - while Spring Batch 2.x has been out for years - is &lt;em&gt;always&lt;/EM&gt; worth a look! 
+		 
+	 
+	
+ &lt;/LI&gt;
+
+ &lt;LI&gt; 
+	 The Java all and Sundry blog has a nice writeup on a piece of  &lt;a href=&quot;http://www.java-allandsundry.com/2013/01/spring-mvc-customizing.html&quot;&gt;Spring MVC&#039;s machinery, the &lt;CODE&gt;RequestMappingHandlerAdapter&lt;/code&gt;&lt;/a&gt;. 
+	 
+	
+ &lt;/LI&gt;
+ 
+ &lt;LI&gt;Alex Soto&#039;s back, this time with a 
+	
+	&lt;a href=&quot;http://www.lordofthejars.com/2013/01/testing-spring-data-mongodb.html&quot;&gt;post on unit testing Spring Data  MongoDB with NoSQL Unit&lt;/a&gt;! Cool. 
+	 
+	
+ &lt;/LI&gt;
+ &lt;LI&gt; 
+	The &lt;EM&gt;Java Success&lt;/EM&gt; blog has a post introducing  some of the landscape for enterprise integration  
+	solutions in the JVM community, and &lt;a href=&quot;http://java-success.blogspot.com/2013/01/spring-integration-polling-for-file-and.html&quot;&gt;demonstrating some of the concepts of enterprise integration, specifically, with Spring Integration&lt;/a&gt;. 
+	
+ &lt;/LI&gt;
+  
+ &lt;LI&gt; The &lt;EM&gt;Develop and Conquer&lt;/EM&gt; blog has a nice example with some &lt;a href=&quot;http://raymondhlee.wordpress.com/2013/01/07/use-spring-value-annotation-for-injecting-date-properties/&quot;&gt; trickery to inject a &lt;code&gt;java.util.Date&lt;/CODe&gt; 
+	 value using the Spring Expression language and the &lt;CODE&gt;@Value&lt;/CODE&gt; annotation&lt;/a&gt;. Very cool! 
+	
+ &lt;/LI&gt;
+ &lt;LI&gt;Abhijit Ghosh put together a decent &lt;a href=&quot;http://www.srccodes.com/p/article/24/spring-3-mvc-framework-based-hello-world-web-application-example-using-maven-eclipse-ide-and-tomcat-server&quot;&gt;SpringMVC-based HelloWorld application &lt;/a&gt;using Tomcat, Maven, Eclipse (m2e).&lt;/LI&gt;
+  
+
+&lt;/OL&gt;
+</description>
+ <comments>http://www.springsource.org/node/3782#comments</comments>
+ <category domain="http://www.springsource.org/taxonomy/term/14">This Week in Spring</category>
+ <pubDate>Tue, 08 Jan 2013 18:47:59 +0000</pubDate>
+ <dc:creator>Josh Long</dc:creator>
+ <guid isPermaLink="false">3782 at http://www.springsource.org</guid>
+</item>
+<item>
+ <title>SpringSource Training Schedule: February 2013</title>
+ <link>http://www.springsource.org/springsource-training-schedule-february-2013</link>
+ <description>&lt;p&gt;If you are a Java developer looking to increase your Spring knowledge, vFabric Education by SpringSource is the place to start. We are providing several Spring trainings across the globe closely connected to your needs as a professional developer. This month you can also win another free SpringSource training seat. For more information about the &lt;a href=&quot;http://www.springsource.org/spring-prize-contest&quot;&gt;Spring Prize Contest click here&lt;/a&gt;. The complete Spring training schedule for February, 2013 can be found below:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Step 1: Core Spring&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i&gt;Americas&lt;/i&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;February 05 - 08: &lt;a href=&quot;http://mylearn.vmware.com/mgrreg/courses.cfm?ui=www_edu&amp;a=det&amp;id_course=156572&quot;&gt;Core Spring in Washington, DC&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;February 05 - 08: &lt;a href=&quot;http://mylearn.vmware.com/mgrreg/courses.cfm?ui=www_edu&amp;a=det&amp;id_course=156571&quot;&gt;Core Spring in Denver, CO&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;February 12 - 15: &lt;a href=&quot;http://mylearn.vmware.com/mgrreg/courses.cfm?ui=www_edu&amp;a=det&amp;id_course=156659&quot;&gt;Core Spring in San Diego, CA&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;February 12 - 15: &lt;a href=&quot;http://mylearn.vmware.com/mgrreg/courses.cfm?ui=www_edu&amp;a=det&amp;id_course=156658&quot;&gt;Core Spring in Pittsburgh, PA&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;February 19 - 22: &lt;a href=&quot;http://mylearn.vmware.com/mgrreg/courses.cfm?ui=www_edu&amp;a=det&amp;id_course=156661&quot;&gt;Core Spring in Austin, TX&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;February 19 - 22: &lt;a href=&quot;http://mylearn.vmware.com/mgrreg/courses.cfm?ui=www_edu&amp;a=det&amp;id_course=156660&quot;&gt;Core Spring in Los Angeles, CA&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;February 26 - March 01: &lt;a href=&quot;http://mylearn.vmware.com/mgrreg/courses.cfm?ui=www_edu&amp;a=det&amp;id_course=156663&quot;&gt;Core Spring in Minneapolis, MN&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;February 26 - March 01: &lt;a href=&quot;http://mylearn.vmware.com/mgrreg/courses.cfm?ui=www_edu&amp;a=det&amp;id_course=156662&quot;&gt;Core Spring in Portland, OR&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+
+&lt;p&gt;&lt;i&gt;Asia Pacific&lt;/i&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;February 04 - 07: &lt;a href=&quot;http://mylearn.vmware.com/mgrreg/courses.cfm?ui=www_edu&amp;a=det&amp;id_course=155225&quot;&gt;Core Spring in Melbourne, Australia&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;February 04 - 07: &lt;a href=&quot;http://mylearn.vmware.com/mgrreg/courses.cfm?ui=www_edu&amp;a=det&amp;id_course=138309&quot;&gt;Core Spring in Bangalore, India&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;February 05 - 08: &lt;a href=&quot;http://mylearn.vmware.com/mgrreg/courses.cfm?ui=www_edu&amp;a=det&amp;id_course=154196&quot;&gt;Core Spring in Singapore, Singapore&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;February 11 - 14: &lt;a href=&quot;http://mylearn.vmware.com/mgrreg/courses.cfm?ui=www_edu&amp;a=det&amp;id_course=155227&quot;&gt;Core Spring in Canberra, Australia&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;February 11 - 14: &lt;a href=&quot;http://mylearn.vmware.com/mgrreg/courses.cfm?ui=www_edu&amp;a=det&amp;id_course=138308&quot;&gt;Core Spring in New Delhi, India&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;February 18 - 21: &lt;a href=&quot;http://mylearn.vmware.com/mgrreg/courses.cfm?ui=www_edu&amp;a=det&amp;id_course=155228&quot;&gt;Core Spring in Brisbane, Australia&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;February 25 - 28: &lt;a href=&quot;http://mylearn.vmware.com/mgrreg/courses.cfm?ui=www_edu&amp;a=det&amp;id_course=155226&quot;&gt;Core Spring in Sydney, Australia&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+
+&lt;p&gt;&lt;i&gt;Europe, Middle East &amp; Africa&lt;/i&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;February 05 - 08: &lt;a href=&quot;http://mylearn.vmware.com/mgrreg/courses.cfm?ui=www_edu&amp;a=det&amp;id_course=157574&quot;&gt;Core Spring in Brussels, Belgium&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;February 05 - 08: &lt;a href=&quot;http://mylearn.vmware.com/mgrreg/courses.cfm?ui=www_edu&amp;a=det&amp;id_course=140844&quot;&gt;Core Spring in Munich, Germany&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;February 05 - 08: &lt;a href=&quot;http://mylearn.vmware.com/mgrreg/courses.cfm?ui=www_edu&amp;a=det&amp;id_course=155981&quot;&gt;Core Spring in Lisbon, Portugal&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;February 05 - 08: &lt;a href=&quot;http://mylearn.vmware.com/mgrreg/courses.cfm?ui=www_edu&amp;a=det&amp;id_course=138360&quot;&gt;Core Spring in Madrid, Spain&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;February 12 - 15: &lt;a href=&quot;http://mylearn.vmware.com/mgrreg/courses.cfm?ui=www_edu&amp;a=det&amp;id_course=140840&quot;&gt;Core Spring in Hamburg, Germany&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;February 12 - 15: &lt;a href=&quot;http://mylearn.vmware.com/mgrreg/courses.cfm?ui=www_edu&amp;a=det&amp;id_course=150298&quot;&gt;Core Spring in Oslo, Norway&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;February 12 - 15: &lt;a href=&quot;http://mylearn.vmware.com/mgrreg/courses.cfm?ui=www_edu&amp;a=det&amp;id_course=160532&quot;&gt;Core Spring in Moscow, Russia&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;February 12 - 15: &lt;a href=&quot;http://mylearn.vmware.com/mgrreg/courses.cfm?ui=www_edu&amp;a=det&amp;id_course=142233&quot;&gt;Core Spring in Cape Town, South Africa&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;February 19 - 22: &lt;a href=&quot;http://mylearn.vmware.com/mgrreg/courses.cfm?ui=www_edu&amp;a=det&amp;id_course=157434&quot;&gt;Core Spring in Lyon, France&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;February 25 - 28: &lt;a href=&quot;http://mylearn.vmware.com/mgrreg/courses.cfm?ui=www_edu&amp;a=det&amp;id_course=161832&quot;&gt;Core Spring in London, United Kingdom&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+
+&lt;p&gt;&lt;i&gt;Live Online&lt;/i&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;February 12 - 15: &lt;a href=&quot;http://mylearn.vmware.com/mgrreg/courses.cfm?ui=www_edu&amp;a=det&amp;id_course=155391&quot;&gt;Core Spring Online in Asia Pacific&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;February 19 - 22: &lt;a href=&quot;http://mylearn.vmware.com/mgrreg/courses.cfm?ui=www_edu&amp;a=det&amp;id_course=161554&quot;&gt;Core Spring Online in Americas&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Step 1: Spring Web / Enterprise Integration with Spring / Hibernate with Spring&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i&gt;Americas&lt;/i&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;February 05 - 08: &lt;a href=&quot;http://mylearn.vmware.com/mgrreg/courses.cfm?ui=www_edu&amp;a=det&amp;id_course=156570&quot;&gt;Spring Web in Chicago, IL&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+
+&lt;p&gt;&lt;i&gt;Europe, Middle East &amp; Africa&lt;/i&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;February 05 - 08: &lt;a href=&quot;http://mylearn.vmware.com/mgrreg/courses.cfm?ui=www_edu&amp;a=det&amp;id_course=140867&quot;&gt;Enterprise Integration with Spring in Stuttgart, Germany&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;February 05 - 08: &lt;a href=&quot;http://mylearn.vmware.com/mgrreg/courses.cfm?ui=www_edu&amp;a=det&amp;id_course=157432&quot;&gt;Spring Web in Paris, France&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;February 05 - 08: &lt;a href=&quot;http://mylearn.vmware.com/mgrreg/courses.cfm?ui=www_edu&amp;a=det&amp;id_course=157580&quot;&gt;Spring Web in Dublin, Ireland&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;February 12 - 15: &lt;a href=&quot;http://mylearn.vmware.com/mgrreg/courses.cfm?ui=www_edu&amp;a=det&amp;id_course=157995&quot;&gt;Enterprise Integration with Spring in Brussels, Belgium&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;February 13 - 15: &lt;a href=&quot;http://mylearn.vmware.com/mgrreg/courses.cfm?ui=www_edu&amp;a=det&amp;id_course=140881&quot;&gt;Hibernate with Spring in Stuttgart, Germany&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;February 18 - 21: &lt;a href=&quot;http://mylearn.vmware.com/mgrreg/courses.cfm?ui=www_edu&amp;a=det&amp;id_course=161835&quot;&gt;Enterprise Integration with Spring in London, United Kingdom&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;February 19 - 22: &lt;a href=&quot;http://mylearn.vmware.com/mgrreg/courses.cfm?ui=www_edu&amp;a=det&amp;id_course=158873&quot;&gt;Enterprise Integration with Spring in Prague, Czech Republic&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;February 19 - 22: &lt;a href=&quot;http://mylearn.vmware.com/mgrreg/courses.cfm?ui=www_edu&amp;a=det&amp;id_course=157639&quot;&gt;Spring Web in Hamburg, Germany&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+
+&lt;p&gt;&lt;i&gt;Live Online&lt;/i&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;February 05 - 07: &lt;a href=&quot;http://mylearn.vmware.com/mgrreg/courses.cfm?ui=www_edu&amp;a=det&amp;id_course=162934&quot;&gt;Hibernate with Spring Online in Americas&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If you cannot find a professional training near you, you can always request an &lt;a href=http://mylearn.vmware.com/mgrReg/message.cfm?ui=www&amp;subject=Onsite%20Training&gt;onsite SpringSource training&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://www.springsource.org/springsource-training-schedule-february-2013#comments</comments>
+ <category domain="http://www.springsource.org/taxonomy/term/4">News and Announcements</category>
+ <pubDate>Tue, 08 Jan 2013 11:42:09 +0000</pubDate>
+ <dc:creator>Mark Baars</dc:creator>
+ <guid isPermaLink="false">3781 at http://www.springsource.org</guid>
+</item>
+<item>
+ <title>Webinar: Spring Framework 3.2 - Themes and Trends</title>
+ <link>http://www.springsource.org/node/3780</link>
+ <description>&lt;p&gt;Join &lt;a href=&quot;http://blog.springsource.org/author/juergenh/&quot;&gt;Juergen Hoeller&lt;/a&gt;, &lt;a href=&quot;http://blog.springsource.org/author/cbeams/&quot;&gt;Chris Beams and &lt;a href=&quot;http://blog.springsource.org/author/rstoyanchev/&quot;&gt;Rossen Stoyanchev&lt;/a&gt; to learn  about the 3.2 generation of the Spring Framework.&amp;nbsp; They will discuss the fine-tuned Java 7 support, container optimizations, and first-class support for asynchronous web request processing. &lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The team will also discuss some refinements in the core container as well as key updates in  Spring MVC: asynchronous MVC processing on Servlet 3.0, REST support  improvements, and the inclusion of the formerly-standalone Spring MVC Test  project. Spring Framework 3.2 also comes with a new Gradle-based build and a  GitHub-based contribution model, making it even easier for community members to  contribute to the Spring Framework project.&lt;br /&gt;
+Sign up for the webinar in your region now!&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;North America: &lt;a href=&quot;https://vmwareevents.webex.com/vmwareevents/onstage/g.php?t=a&amp;amp;d=668251050&quot; target=&quot;_blank&quot;&gt;Thursday, January 17, 10:00 Pacific Standard (San Francisco, GMT-8:00)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Europe: &lt;a href=&quot;https://vmwareevents.webex.com/vmwareevents/onstage/g.php?t=a&amp;amp;d=663808661&quot; target=&quot;_blank&quot;&gt;Thursday, January 17, 3:00pm Western Europe (London, GMT)&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+ <comments>http://www.springsource.org/node/3780#comments</comments>
+ <category domain="http://www.springsource.org/taxonomy/term/4">News and Announcements</category>
+ <pubDate>Mon, 07 Jan 2013 18:44:39 +0000</pubDate>
+ <dc:creator>Adam Fitzgerald</dc:creator>
+ <guid isPermaLink="false">3780 at http://www.springsource.org</guid>
+</item>
+<item>
+ <title>This Week in Spring - January 1, 2013 </title>
+ <link>http://www.springsource.org/node/3779</link>
+ <description>  
+&lt;P&gt; 
+ I almost typed &lt;EM&gt;2012&lt;/eM&gt; when I composed this post! It&#039;s already 2013!  
+   I hope your holidays were wonderful.  
+ 
+ Welcome back to another installment of &lt;EM&gt;This Week in Spring&lt;/EM&gt;! 
+ It&#039;s time to begin another exciting new year (and to remember to use the correct new year in text!). With that, let&#039;s have a look at   
+	 the new and exciting content from all around the community.
+	 
+&lt;/p&gt;
+&lt;OL&gt;  
+ 
+	&lt;LI&gt; The epic book by &lt;a href=&quot;https://twitter.com/rob_winch/status/284812769197441024&quot;&gt;Spring Security lead Rob Winch and Peter Mularien   on   Spring Security 3.1&lt;/a&gt; by Packt publishing is now out!  
+		  The book is a great resource for people who are looking at Spring Security and want  
+		the scoop from the source.
+		 &lt;/lI&gt;
+	
+	
+	
+	  &lt;LI&gt; Are you using Spring Security to handle login and logout in your application? Sometimes it&#039;s necessary to tailor the behavior of how login and logout are accomplished. Perhaps you need to tear down some state or do logging. In any event, this post &lt;a href=&quot;http://javaiscoool.blogspot.com/2012/12/spring-security-implement-logout-handler.html&quot;&gt; demonstrates the configuration and base contract of a logout handler&lt;/a&gt;. &lt;/LI&gt;
+&lt;LI&gt; Chris Shayan has a nice post that illustrates how &lt;A href=&quot;http://java.dzone.com/articles/enterprise-use-case-spring&quot;&gt;Spring Batch can help make short work of complex enterprise-y batch processing, complete with code and examples&lt;/a&gt;! Nice job! &lt;/lI&gt;
+&lt;LI&gt;    The &lt;EM&gt;Java Kart&lt;/EM&gt; blog has a nice post  that &lt;A href=&quot;http://javakart.blogspot.com/2012/12/spring-data-redis-hello-world-example.html&quot;&gt;introduces Spring Data Redis with the JRedis client library&lt;/a&gt;   &lt;/lI&gt;
+&lt;LI&gt; Desam Venu Madhava Reddy  has a very simple post identifying &lt;A href=&quot;http://spring.javabook.org/2012/12/what-are-advantages-of-spring-framework.html&quot;&gt;some of the main reasons why people use Spring&lt;/a&gt;.  
+	 There are many reasons  people come to Spring, and these are some of the very high level ones. 
+	 &lt;/lI&gt;
+&lt;LI&gt;  &lt;EM&gt;The Cafe Techno&lt;/em&gt; has a nice post on the &lt;A href=&quot;http://thecafetechno.com/tutorials/spring/use-of-simpleformcontroller-spring-mvc&quot;&gt; complete setup of a  &lt;CODE&gt;SimpleFormController&lt;/CODE&gt; in Spring MVC&lt;/a&gt;. The example uses Spring MVC and explicitly wires up the machinery for working with Spring MVC. You don&#039;t need to do much of this in Spring 2.5 (introduced in 2007) and later, instead relying on  the defaults and conventions. That said, if you want to override the framework, then understanding some of these things are wired together can be very helpful.  &lt;/lI&gt;
+&lt;LI&gt; The &lt;EM&gt;Developer&#039;s Diary&lt;/em&gt; blog has &lt;a href=&quot;http://dev-faqs.blogspot.com/2012/12/spring-framework-autowiring-map-list.html&quot;&gt;a nice post on autowiring a map, list, or array using Spring annotations&lt;/a&gt;  &lt;/lI&gt;
+&lt;LI&gt; This blog is in Chinese, and has a simple example of how to setup a Spring MVC 3.2 example. NB: I&#039;d recommend using the Java-centric configuration for this, as this is needlessly XML-centric. In a Spring 3.1+ and Servlet 3 environment, there&#039;s no need for XML (for Spring MVC or &lt;CODE&gt;web.xml&lt;/CoDE&gt;). &lt;/lI&gt;
+&lt;LI&gt;  The &lt;EM&gt;all and sundry&lt;/EM&gt; blog &lt;A href=&quot;http://www.java-allandsundry.com/2012/12/spring-data-jpa-and-pagination.html&quot;&gt;has a nice post on Spring Data JPA and pagination&lt;/a&gt;  &lt;/lI&gt;	
+	&lt;LI&gt; 
+This post is in Japanese, and from what I can gather it&#039;s aimed at showing how to build a lean &lt;a href=&quot;http://d.hatena.ne.jp/maji-KY/20121230/1356847738&quot;&gt;Spring application using MyBatis, Freemarker, etc&lt;/a&gt;.  	
+	&lt;/LI&gt;
+	&lt;LI&gt; This post is also in Chinese, and shows   &lt;a href=&quot;http://www.cnblogs.com/rollenholt/archive/2012/12/27/2835270.html&quot;&gt;the various kinds of dependency checking in Spring&lt;/a&gt;.  &lt;/LI&gt;
+	&lt;LI&gt; http://manikmagar.wordpress.com/2013/01/01/spring-mybatis-integration-and-junit-testing-using-springs-embedded-database/  &lt;/LI&gt;
+ 	&lt;LI&gt;  I had some time over the holiday and decided to quickly scratch one item off of my 2012 new years resolutions (I got it done before new years, and besides, better late than never!): I migrated my photos away from my Flickr account to another service which was cheaper and more invested in.  To do this, I used the community-supported Spring Social Flickr project. The project is, decidedly, not yet finished, but works well enough.  I forked it and added a Spring Batch downloader which reliably downloads all the photos into albums named for the ID of the  https://github.com/joshlong/spring-social-flickr  &lt;/LI&gt;
+	&lt;LI&gt;   The &lt;EM&gt;Fish&lt;/EM&gt; blog (also in Chinese) has a nice post on using 
+&lt;a href=&quot;http://www.cnblogs.com/atyou/archive/2012/12/31/2840460.html&quot;&gt;the Danga memcached client from Spring&lt;/a&gt;.   &lt;/LI&gt; &lt;LI&gt;   
+	Simon Massey has a nice  post on &lt;a href=&quot;http://architects.dzone.com/articles/serverside-pagination-zk&quot;&gt;server-side pagination with ZK (a widget-centric web framework), Spring Data MongoDB and Google Maps&lt;/a&gt;. Do I need to say anymore? Check it out!
+	 &lt;/LI&gt;
+	&lt;LI&gt;   The &lt;EM&gt;Dinesh on Java&lt;/EM&gt; blog  has a nice, introductory post on &lt;a href=&quot;http://www.dineshonjava.com/2012/12/spring-3-mvc-and-interceptor-with.html&quot;&gt;using Spring MVC interceptors&lt;/a&gt;. Good stuff!    
+		 &lt;/LI&gt;
+
+&lt;/ol&gt;</description>
+ <comments>http://www.springsource.org/node/3779#comments</comments>
+ <category domain="http://www.springsource.org/taxonomy/term/14">This Week in Spring</category>
+ <pubDate>Tue, 01 Jan 2013 19:57:13 +0000</pubDate>
+ <dc:creator>Josh Long</dc:creator>
+ <guid isPermaLink="false">3779 at http://www.springsource.org</guid>
+</item>
+<item>
+ <title>This Year in Spring - 25 December, 2012</title>
+ <link>http://www.springsource.org/node/3778</link>
+ <description> 
+&lt;P&gt; Welcome back to another, very special holiday, and end-of-year installment of &lt;EM&gt;This Week in Spring&lt;/EM&gt;! 
+  If you&#039;ve been a follower of this roundup, then you   know that 2012&#039;s been a &lt;EM&gt;very&lt;/EM&gt; exciting year for Spring! 
+Let&#039;s look at some of the highlights, first, before we get to our weekly roundup:	&lt;/P&gt; 
+
+ &lt;Ol&gt;
+ &lt;LI&gt; &lt;B&gt;Springing Forward&lt;/B&gt; Of course, this year saw the &lt;A href=&quot;http://blog.springsource.org/2012/12/13/spring-framework-3-2-goes-ga/&quot;&gt;release of Spring 3.2&lt;/a&gt;, released a year exactly from the release of Spring 3.1, packed with new features and helping Spring retain its position as the premiere platform for building web applications.  This year also saw many major improvements 
+	  and iterations in the other Spring projects like Spring Integration 2.2.0 GA, Spring Data 
+	&lt;/LI&gt;  
+	&lt;LI&gt; &lt;B&gt;  The Cloud &lt;/B&gt; 
+		 Spring works very well on all cloud platforms, owing to the  natural decoupling from the underlying platform that
+		 dependency injection provides, but it has always - and continues - to enjoy a special place in the sun &lt;a href=&quot;http://www.springsource.org&quot;&gt;on Cloud Foundry, the open source PaaS&lt;/a&gt;. And, what a year it&#039;s been for Cloud Foundry! We&#039;ve seen ecosystem partners like App Fog take the Cloud Foundry bits and run with them. We&#039;ve seen the support for Spring applications on Cloud Foundry improve considerably with new features &lt;a href=&quot;http://blog.springsource.org/2012/05/09/using-cloud-foundry-workers-with-spring/&quot;&gt;like standalone processes&lt;/a&gt;, and  much more.
+		&lt;/li&gt;
+	 &lt;lI&gt; &lt;b&gt;The RESTful Web&lt;/b&gt; If you ask me, the most exciting part of this year was  watching Spring&#039;s web support improve.   If you&#039;re looking to build a web application (including in a Servlet 3 environment) or expose RESTful API endpoints, Spring MVC is the natural choice. If you want secure those RESTful endpoints,  
+		 Spring Security OAuth is an easy to use binding that supports OAuth on top of REST. Need to connect to social service providers like Twitter, Facebook, LinkedIn and GitHub via OAuth? Use Spring Social. Want to support  the principles of HATEOAS   in your RESTful endpoints? Check out Spring HATEOAS. Do you want to transparently and easily expose Spring Data repositories for use as RESTful endpoints? You need look no further than Spring Data REST. 
+		There are no richer, more comprehensive or more integrated set of solutions for building rich, RESTful web applications than those that Spring provides today. 
+		 &lt;/LI&gt;
+ &lt;LI&gt; &lt;B&gt;  &lt;EM&gt;Git&lt;/em&gt;&#039;ing Involved &lt;/B&gt;  This year, in particular,  saw community interaction  
+	  in the Spring open source projects skyrocket, now that all of the projects are all fully on &lt;a href=&quot;http://github.com/SpringSource&quot;&gt;GitHub.com/SpringSource&lt;/a&gt;. Spring and the other projects have always been open source, but the collaboration model that Git enables has made it very easy for projects like
+	Spring Social, Spring Integration, and Spring Data to thrive on community input and contributions. 
+	  &lt;/LI&gt;
+ &lt;LI&gt;  &lt;B&gt;Extending the reach of SpringSource&#039;s content&lt;/B&gt; We&#039;ve been working hard to bring great content on all things SpringSource to all the developers, and have expanded 
+ a lot this year. For instance, besides  publishing content here  on &lt;A href =&quot;http://springsource.org/&quot;&gt;SpringSource.org&lt;/a&gt;, did you know
+	that you can find SpringSource on &lt;A href =&quot;http://twitter.com/SpringSource&quot;&gt;@SpringSource  on Twitter&lt;/a&gt;, 
+		&lt;a href=&quot;http://google.com/+SpringFramework&quot;&gt;+SpringFramework on Google+&lt;/a&gt;,  
+		on &lt;A href=&quot;http://youtube.com/SpringSourceDev&quot;&gt;the YouTube SpringSourceDev channel&lt;/a&gt; and  (this is particularly useful for the many fans in China) on &lt;a href  =&quot;http://weibo.com/springframework&quot;&gt;SpringFramework on SINA Weibo&lt;/a&gt;?  Additionally, if you like this roundup, be sure to bookmark the &lt;a href=&quot;http://www.springsource.org/taxonomy/term/14&quot;&gt;&lt;EM&gt;This Week in Spring&lt;/EM&gt; aggregate page&lt;/a&gt;. 
+	 &lt;/LI&gt;
+
+ 
+
+&lt;/ol&gt; 
+&lt;p&gt;Now then, on to this week&#039;s roundup! There&#039;s a lot to cover, and hopefully  you wont want for things to read 
+	this week if you&#039;re taking time off for the holidays and have some spare time on your hands! &lt;/p&gt;
+
+
+	 &lt;Ol&gt;   
+		 &lt;LI&gt; If you&#039;ve been following this roundup, then you know that we wrapped up our SpringOnes India and China events. For more details,  &lt;a href=&quot;http://www.springsource.org/node/3777&quot;&gt;checkout our wrapup post&lt;/a&gt;!&lt;/LI&gt;
+		&lt;LI&gt; The &lt;EM&gt;baeldung&lt;/EM&gt; blog has another great post up on using Spring MVC and Spring Security to &lt;a href=&quot;http://www.baeldung.com/2012/12/20/authentication-against-a-restful-service/&quot;&gt;secure a RESTful web service&lt;/a&gt;. There are many ways to secure an HTTP REST web service, including HTTP Basic and the bespoke solution presented in this article. Many people are also using Spring Security OAuth, which lets you expose your RESTful web services through OAuth.  
+		 
+			&lt;/LI&gt;
+	 &lt;LI&gt; Blogger Shaun Abram&#039;s put together a very nice post on &lt;a href =&quot;http://www.shaunabram.com/springmvc-file-download/&quot;&gt;how to stream data using Spring MVC back to the client&lt;/a&gt;&lt;/LI&gt;
+	 &lt;LI&gt;  Krishna Prasad&#039;s put  together a nice post on using &lt;A href=&quot;http://java.dzone.com/articles/claimcheck-pattern-using&quot;&gt;the claim check pattern with Spring Integration and GemFire&lt;/a&gt;&lt;/LI&gt;
+	 &lt;LI&gt;  Krishna&#039;s also  put together a nice post on  &lt;a href=&quot;http://java.dzone.com/articles/pubsub-vfabric-rabbitmq-and?utm_source=feedburner&amp;utm_medium=feed&amp;utm_campaign=Feed%3A+javalobby%2Ffrontpage+%28Javalobby+%2F+Java+Zone%29&amp;utm_content=Google+Reader&quot;&gt;publish/subscribe with vFabric RabbitMQ and Spring Integration using Spring AMQP&lt;/a&gt;.&lt;/LI&gt;
+	 &lt;LI&gt;  Did you guys miss the webinar, &lt;EM&gt;The Data Renaissance: Going In-Memory with VMWare vFabric GemFire&lt;/EM&gt;? Have no fear,  
+		
+		&lt;a href=&quot;http://www.youtube.com/watch?v=U85fxz31HTA&amp;feature=youtu.be&quot;&gt;it&#039;s available&lt;/a&gt; - along with a lot of other great content, on the &lt;a href=&quot;http://youtube.com/SpringSourceDev&quot;&gt;SpringSource Dev Channel&lt;/a&gt; &lt;/LI&gt; 
+		 &lt;LI&gt; The &lt;em&gt;quick guide to Java&lt;/EM&gt;  blog has a nice post on setting up a &lt;a href=&quot;http://javakart.blogspot.com/2012/12/developing-mongodb-example-using-spring-data.html&quot;&gt;simple Spring Data MongoDB example&lt;/a&gt;.
+	 &lt;LI&gt; 
+		 
+		Corey Reil&#039;s put together 		
+		a really nice post on &lt;a href= &quot;http://coreyreil.wordpress.com/2012/12/21/spring-batch-creating-an-ftp-tasklet-to-get-remote-files&quot;&gt;building a Spring Batch &lt;CODE&gt;Tasklet&lt;/CODE&gt;
+		that reads data from an FTP endpoint&lt;/a&gt;.  
+		 The solution, he rightly points out, was already possible with the Spring Integration FTP adapter, 
+		 but he wanted to keep things as simple as possible, so he simply reused some of the Spring Integration adapters in writing his &lt;CODE&gt;Tasklet&lt;/CODE&gt;.  Nice job!
+		  
+		&lt;/LI&gt;
+	 &lt;LI&gt;  The &lt;EM&gt;A Developer&#039;s Diary&lt;/EM&gt; blog has a post with code on 
+		  &lt;a href=&quot;http://dev-faqs.blogspot.com/2012/12/spring-framework-populating-map-using.html&quot;&gt;how to configure a &lt;CODE&gt;java.util.Map&amp;lt;K,V&amp;gt;&lt;/code&gt; in XML&lt;/a&gt;
+		 &lt;/LI&gt;
+	 &lt;LI&gt;   
+		 The &lt;EM&gt;Learning via Code&lt;/EM&gt; blog has a nice &lt;a href=&quot;http://learningviacode.blogspot.in/2012/12/soap-webservices-using-spring-1.html&quot;&gt; couple&lt;/a&gt; of  posts on using Spring Web Services to &lt;a href=&quot;http://learningviacode.blogspot.com/2012/12/soap-webservices-using-spring-2.html&quot;&gt; expose a &lt;code&gt;.xsd&lt;/code&gt; and &lt;code&gt;.wsdl&lt;/code&gt;&lt;/a&gt;.  
+		
+		&lt;/LI&gt;
+	&lt;/ol&gt; 
+
+ 
+&lt;p&gt; Well, &lt;EM&gt; that&lt;/EM&gt; sure flew by!   
+ As next Tuesday is January 1st, this will be the last installment of &lt;EM&gt;This Week in Spring&lt;/EM&gt; for 2012! 
+	As always,  it has been an absolute pleasure putting together this roundup for you. 
+ Speaking, I&#039;m sure, for all of SpringSource, let me wish you the warmest of holidays and a very, very happy new year! 
+	 &lt;/p&gt;</description>
+ <comments>http://www.springsource.org/node/3778#comments</comments>
+ <category domain="http://www.springsource.org/taxonomy/term/14">This Week in Spring</category>
+ <pubDate>Tue, 25 Dec 2012 02:41:09 +0000</pubDate>
+ <dc:creator>Josh Long</dc:creator>
+ <guid isPermaLink="false">3778 at http://www.springsource.org</guid>
+</item>
+<item>
+ <title>Overwhelming response to SpringOne China and India</title>
+ <link>http://www.springsource.org/node/3777</link>
+ <description>&lt;body&gt;
+&lt;p&gt;&lt;strong&gt;Overwhelming response  to SpringOne China and India&lt;/strong&gt;&lt;br /&gt;
+  We conducted SpringOne in China and India for the first time  this December. The response to both the events was overwhelming with over 2800  developers attending the conference in both the countries. The event was held  in City of Beijing in China. In India we conducted it in two cities : Bangalore  and Hyderabad.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;SpringOne China&lt;/strong&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;http://www.springsource.org/files/logo.png&quot; alt=&quot;&quot; width=&quot;530&quot; height=&quot;159&quot; /&gt;&lt;br /&gt;
+  &lt;br /&gt;
+  Dec 7th 2012, at Sheraton Great Wall Beijing, with the  welcome speech delivered by Alan Ren, 3000+ attendees (~800 onsite, ~2500  online) began their two days&amp;rsquo; journey of the Spring &amp;amp; Cloud Foundry  Developer Conference. Mark Pollack, and Patrick Chanezon keynoted the  conference by sharing their visions and thoughts on Spring roadmap, software  architectural revolution and the future of cloud application.&lt;br /&gt;
+  &lt;center&gt; &lt;img src=&quot;http://www.springsource.org/files/people1.png&quot; alt=&quot;&quot; width=&quot;408&quot; height=&quot;168&quot; /&gt;&lt;/p&gt;&lt;/center&gt;&lt;br /&gt;
+  &lt;br /&gt;
+  &lt;strong&gt;The Attendees&lt;/strong&gt;&lt;br /&gt;
+  Over 2500 conference register members, 800+ selected  attendees join the event from top ISVs, system integrators, internet players  and technical startups, over 2500+ people join the online live broadcast. &lt;center&gt; &lt;img src=http://www.springsource.org/files/venue2.png alt=&quot;&quot; width=&quot;644&quot; height=&quot;139&quot; /&gt;&lt;/center&gt;&lt;/p&gt;
+&lt;p&gt; &lt;br /&gt;
+  &lt;strong&gt;The Content and  Speaker&lt;/strong&gt;&lt;br /&gt;
+  To bring a one-of-a-kind technology event into this  industry, we presented nearly 30 in-depth technical sessions for application  developers, solution architects, web operation and IT teams who develop  business applications, create multi-device aware web applications, design cloud  architecture, and manage high performance infrastructure, etc. The contents  covered Spring framework, Spring Web, latest news on mobile computing,  integration and big data, Cloud Foundry technology architecture, and expert  suggestions on how to run Spring application on Cloud Foundry, etc. &lt;br /&gt;
+  SpringOne speakers, the group of front-line developers from  SpringSource and Cloud Foundry, subject matter experts, committers on Spring  Framework and published authors &lt;br /&gt;
+  &lt;br /&gt;
+  &lt;strong&gt;Partners&amp;rsquo; Showtime&lt;/strong&gt;&lt;br /&gt;
+  Partners coming from Baidu and Taobao, Grand Cloud, EMC,  MoPaaS and other partners, presented, shared their best project practices on  Spring and Cloud Foundry. The partner lineup indicates wide adoption of  Spring in China and that Cloud Foundry ecosystem  is gradually becoming mature.&lt;/p&gt;
+&lt;p&gt;&lt;center&gt;&lt;img src=&quot;http://www.springsource.org/files/sponsors.png&quot; alt=&quot;&quot; width=&quot;558&quot; height=&quot;115&quot; /&gt;&lt;/center&gt;&lt;br /&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Cloud Foundry  Bootcamp&lt;/strong&gt;&lt;br /&gt;
+  With a slogan &amp;ldquo;Cloud Foundry Applications for Hoodies&amp;rdquo;, the  Cloud Foundry Bootcamp activity attracted many Spring developers. The Cloud  Foundry Developer Advocate Frank Yu gave a detailed introduction to Cloud  Foundry PaaS in his speeches, including account registration, vmc tools  installation, getting environmental variables, and some details about Micro  Cloud Foundry and Spring. 450+ attendees completed their registration and  application development upload on cloudfoundry.com, received their delicate  hoodies.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Attendee Feedback&lt;/strong&gt;&lt;br /&gt;
+  &amp;ldquo;VMware organized an authoritative and professional  conference, it&amp;rsquo;s a grand technology feast!&amp;rdquo; – by Mr. Yang, Solution Manager&lt;br /&gt;
+  &lt;br /&gt;
+  &amp;ldquo;I hope Spring &amp;amp; Cloud Foundry Developer Conference come  to China again next year&amp;rdquo; – by Mr. Xu, CTO&lt;br /&gt;
+  &lt;br /&gt;
+  &amp;ldquo;Original, professional and useful conference for  developers! My best wishes to Spring &amp;amp; Cloud Foundry Developer Conference&amp;rdquo;,  by Mr. Chen, Tech Manager&lt;br /&gt;
+  &lt;br /&gt;
+  &amp;ldquo;The quality of the content is high, but there are too many  sessions and too bad I can&amp;rsquo;t be two places at once&amp;rdquo; – by @dragon&lt;br /&gt;
+  &lt;br /&gt;
+  &amp;ldquo;I&amp;rsquo;m so excited to see Mark Pollack in person! The  conference room is full&amp;rdquo; – by @ben&lt;br /&gt;
+  &lt;br /&gt;
+  &lt;strong&gt;SpringOne India&lt;/strong&gt;&lt;br /&gt;
+ &lt;center&gt; &lt;img src=&quot;http://www.springsource.org/files/logo2.png&quot; alt=&quot;&quot; width=&quot;619&quot; height=&quot;143&quot; /&gt;&lt;/center&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Summary&lt;/strong&gt;&lt;br /&gt;
+  SpringOne was held on Dec 11 and Dec 13th 2012 in the cities  of Bangalore and Hyderabad in India . Response to both the events was massive  with approximately 2000 developers attending the events. Over 10+ sessions from  highly experiences and acclaimed speakers was the key attraction of the event.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Keynote&lt;/strong&gt;&lt;br /&gt;
+  Keynote was divided intro two parts, first part being done  by Chris Richardson on developing Polyglot applications with Spring. He also  covered how Spring and Cloud Foundry are natural allies in terms of choice of  cloud hosting because of seamless integration.&lt;br /&gt;
+  Patrick Chanezon covered why the developer productivity is  becoming an important aspect of a Paas provider and he weaved an interesting  story of The Artist movie in his keynote.&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;http://www.springsource.org/files/patrick-chris.png&quot; alt=&quot;&quot; width=&quot;483&quot; height=&quot;195&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Sessions and Content&lt;/strong&gt;&lt;br /&gt;
+  We had sessions covering Spring and Cloud foundry in two  parallel tracks. Some of the developers had a tough time choosing the track as  the content in both the tracks was interesting.   In India content covered the following : Spring Data, Whats new in  Spring 3.2, Cloud Foundry Architecture, What&amp;rsquo;s new in Cloud Foundry, IoC and  JavaScript, Spring AMQP.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Cloud Foundry Push an  App Contest&lt;/strong&gt;&lt;br /&gt;
+  We carried out a contest at the conference where  participants had to signup for Cloud Foundry and Push an App to get a t-shirts.  The response was overwhelming and&lt;strong&gt; &lt;/strong&gt;over  1200 developers signed up for Cloud Foundry.&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;http://www.springsource.org/files/cloudfoundyapp.png&quot; alt=&quot;&quot; width=&quot;456&quot; height=&quot;341&quot; /&gt;&lt;br /&gt;
+  &lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;&lt;strong&gt;Cloud Foundry  Developer Groups&lt;/strong&gt;&lt;br /&gt;
+  We also announced the launch of Cloud Foundry Developer  Groups - CFDG at the event. These are communities around Cloud Foundry and  Spring where developers can signup and meet to discuss and share information.  Please refer to &lt;a href=&quot;http://cfdg.cloudfoundry.com&quot;&gt;http://cfdg.cloudfoundry.com&lt;/a&gt; for more information.&lt;br /&gt;
+  About 500+ developers signed up for Bangalore and Hyderabad  chapter at the event.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Summary&lt;/strong&gt;&lt;br /&gt;
+  We were very excited with the overwhelming response to  SpringOne in China and India and look forward to meeting the developers next  year.&lt;/p&gt;
+&lt;p&gt;Thanks&lt;br /&gt;
+  Frank Yu and Rajdeep Dua&lt;br /&gt;
+  VMware Developer Relations&lt;/p&gt;
+&lt;/body&gt;
+</description>
+ <enclosure url="http://www.springsource.org/files/logo2.png" length="237820" type="image/png" />
+ <pubDate>Thu, 20 Dec 2012 19:32:36 +0000</pubDate>
+ <dc:creator>Pieter Humphrey</dc:creator>
+ <guid isPermaLink="false">3777 at http://www.springsource.org</guid>
+</item>
+<item>
+ <title>This Week in Spring - 18 December, 2012</title>
+ <link>http://www.springsource.org/node/3770</link>
+ <description>&lt;p&gt; 
+ Welcome back to another installment of &lt;EM&gt;This Week in Spring&lt;/EM&gt;! 
+
+ Can you believe we&#039;re already further along through December than not? Time sure flies, and yes, we are staring down the end of the year already - but the holiday season usually brings a SpringFramework release right around this time of year, so we&#039;re feeling festive! We&#039;ve even gots tons of extra SpringSource buttons to celebrate.&lt;/p&gt;
+&lt;p&gt;&lt;center&gt;&lt;img src=&quot;http://www.springsource.org/files/buttons.jpeg&quot; width=&quot;205&quot; height=&quot;200&quot; alt=&quot;Buttons!&quot; /&gt;&lt;/center&gt;&lt;/p&gt; 
+&lt;OL&gt;
+		&lt;LI&gt; First and foremost, &lt;A href= &quot;http://blog.springsource.org/2012/12/13/spring-framework-3-2-goes-ga/&quot;&gt;Spring 3.2 has gone GA&lt;/a&gt;!  
+			 Just read the post. Waay too much awesome in one release, and - if you&#039;ve been following this series over the year than you know I&#039;ve been looking forward to it.  Come back and read the rest when you&#039;ve upgraded your application and played with some of the awesome new stuff!  I&#039;ll wait...
+			
+		    You know what the best part is? Usually, after a new Spring release, the release train of other Spring projects is quick to adopt - so expect lots of releases in the new year!&lt;/LI&gt;  
+  &lt;li&gt;Next up, Spring Security lead and ninja Rob Winch just announced Spring Security 3.2.0.M1, &lt;a href=&quot;http://www.springsource.org/node/3766&quot;&gt;packed with new features for Servlet 3 environments, among other things&lt;/a&gt;.&lt;/LI&gt;
+	
+ 	&lt;LI&gt; We could just stop right there, you know?  BUT, there&#039;s more! In this blog post, Rob Winch  
+		   &lt;a href= &quot;http://blog.springsource.org/2012/12/17/spring-security-3-2-m1-highlights-servlet-3-api-support/&quot;&gt;has answered  some of the very common questions we tend to get regarding how   Spring Security 
+		 integrates in a Servlet 3 environment&lt;/a&gt;, and the results are &lt;EM&gt;amazing&lt;/EM&gt;! 
+		 Definitely worth a read. This stuff, following the new Spring MVC 3.2 servlet 3 support, is sure to make Servlet 3 environments like &lt;A href = &quot;http://tomcat.apache.org&quot;&gt;Apache Tomcat 7&lt;/a&gt; an attractive offering for anyone doing serious enterprise work: no pain upgrades, lightweight &lt;EM&gt;and&lt;/EM&gt; you get all these cool new runtime capabilities with Spring 3.2 and Spring Security. 
+		&lt;/LI&gt;
+
+	&lt;LI&gt; Not to be outdone, &lt;a href= &quot;http://blog.springsource.org/2012/12/18/spring-roo-1-2-3-release-available/&quot;&gt;Alan Stewart announced Spring Roo 1.2.3&lt;/a&gt;, which includes support for Spring 3.2 and a slew of fixes and updates in this, the third maintenance release of 1.2. &lt;/LI&gt;
+	&lt;LI&gt;Are you using Spring with Google App Engine? Lots of people are! Spring&#039;s the only way to do serious enterprise Java development on Google App Engine, after all, without giving up a lot of functionality. Nonetheless, Google App Engine has some &lt;em&gt;unique&lt;/em&gt; constraints that offer Spring developers some... &lt;em&gt;challenges&lt;/em&gt;. This blog post &lt;a href=&quot;https://developers.google.com/appengine/articles/spring_optimization&quot;&gt;shows how to 
+	address some of these issues on Google App Engine&lt;/a&gt;. On every other cloud, including &lt;a href=&quot;http://cloudfoundry.org&quot;&gt;Cloud Foundry&lt;/a&gt;, these &amp;quot;optimizations&amp;quot; are not required or even reasonable, so feel free to ignore them if you&#039;re not on Google App Engine. &lt;/LI&gt;
+	&lt;LI&gt; 
+	  Guys, &lt;A href= &quot;http://www.w3.org/News/2012#entry-9667&quot;&gt;HTML 5 was just &lt;em&gt;completed&lt;/EM&gt;&lt;/a&gt;. 
+	  
+	  From the release: &quot;Though not yet W3C standards, these specifications are now feature complete, meaning businesses and developers have a stable target for implementation and planning.&quot;
+	  
+	  What&#039;s this mean for you guys in practice? Not much - HTML5 as we know it has been fairly stable for some time, but if you were looking for a reason to take the plunge, that should be it.  And, SpringSource is ushering in the new era of 
+	  HTML5 and JavaScript development with &lt;EM&gt;lots&lt;/EM&gt; of interesting stuff 
+	  aimed at civilizing this new frontier and increasing productivity. 
+	  For a peak at some of the new bits, check out the upcoming webinars 
+	  &lt;a href= &quot;http://www.springsource.org/node/3768&quot;&gt;&lt;EM&gt;IOC + JavaScript&lt;/EM&gt;&lt;/a&gt; and 
+	  &lt;a href= &quot;http://www.springsource.org/node/3767&quot;&gt;Architecture of a Modern Web App&lt;/a&gt;. &lt;/LI&gt;
+		
+ 
+		&lt;LI&gt; The steady stream of amazing content from SpringOne2GX DC continues, this time with 
+			&lt;a href=&quot;http://www.springsource.org/node/3764&quot;&gt;videos introducing WebSockets and how to Secure REST with OAuth 2&lt;/a&gt;. Be sure to grab a cup of coffee, sit down and enjoy these two 90 minute videos. Web Sockets is becoming an increasingly important part of the web landscape for messaging, and OAuth  is already one of the most entrenched 
+			 protocols on the web, providing the foundation for modern day, secured web services with REST, so both of these videos are not-to-be-missed.
+			
+			&lt;/LI&gt;
+ 
+ &lt;li&gt; There is a &lt;EM&gt;lot&lt;/EM&gt; of great  Spring Social  news this week! First, Craig Walls announced &lt;a href=&quot;http://www.springsource.org/spring-social/news/spring-social-yammer-1.0.0&quot;&gt;Spring Social Yammer 1.0.0&lt;/a&gt; on behalf of &lt;A href=&quot;http://twitter.com/mortenag&quot;&gt;Morten Andersen-Gott&lt;/a&gt;. Nicely done Morten! Yammer is a popular enterprise-y microblogging service, among many other wonderful things, and this integration will sure to be very useful for lots of enterprises. I&#039;ve used Yammer before and it worked really well.&lt;/LI&gt;
+
+	 &lt;LI&gt; Next, Mark Serrano blog wrote a &lt;a href=&quot;http://krams915.blogspot.com/2012/12/spring-social-with-javaconfig-part-1.html&quot;&gt; &lt;EM&gt;very&lt;/EM&gt; nice tutorial-style article on using Spring Social, Thymeleaf and Java configuration (already on Spring 3.2!)&lt;/a&gt;.
+    
+ &lt;/LI&gt;  &lt;lI&gt; Gabriel Axel has released Spring Social Google M2, including Google Drive support. For more, see &lt;a href=&quot;http://twitter.com/GabiAxel/status/280789280207560704&quot;&gt;his announcement tweet&lt;/a&gt;.&lt;/LI&gt;
+&lt;/OL&gt;</description>
+ <comments>http://www.springsource.org/node/3770#comments</comments>
+ <category domain="http://www.springsource.org/taxonomy/term/14">This Week in Spring</category>
+ <enclosure url="http://www.springsource.org/files/buttons.jpeg" length="268534" type="image/jpeg" />
+ <pubDate>Wed, 19 Dec 2012 04:31:40 +0000</pubDate>
+ <dc:creator>Josh Long</dc:creator>
+ <guid isPermaLink="false">3770 at http://www.springsource.org</guid>
+</item>
+<item>
+ <title>Webinar: IOC + Javascript</title>
+ <link>http://www.springsource.org/node/3768</link>
+ <description>&lt;div class=&quot;event-nodeapi&quot;&gt;
+  &lt;div class=&quot;event-start dtstart&quot; title=&quot;2013-01-31T17:00:00Z&quot;&gt;&lt;label&gt;Start:  &lt;/label&gt; 2013-01-31 10:00 &lt;/div&gt;
+&lt;/div&gt;
+  &lt;div class=&quot;event-nodeapi&quot;&gt;
+    &lt;div class=&quot;event-end dtend&quot; title=&quot;2013-01-31T18:00:00Z&quot;&gt;&lt;label&gt;End: &lt;/label&gt; 2013-01-31 11:00 &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;div class=&quot;event-nodeapi&quot;&gt;
+   &lt;div class=&quot;event-tz&quot;&gt;&lt;label&gt;Timezone: &lt;/label&gt;US/Pacific &lt;/div&gt;
+  &lt;/div&gt;
+&lt;div class=&quot;event-nodeapi&quot;&gt;
+  &lt;div class=&quot;event-start dtstart&quot; title=&quot;2013-01-31T17:00:00Z&quot;&gt;&lt;label&gt;Start:  &lt;/label&gt; 2013-01-31 10:00 &lt;/div&gt;
+&lt;/div&gt;
+  &lt;div class=&quot;event-nodeapi&quot;&gt;
+    &lt;div class=&quot;event-end dtend&quot; title=&quot;2013-01-31T18:00:00Z&quot;&gt;&lt;label&gt;End: &lt;/label&gt; 2013-01-31 11:00 &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;div class=&quot;event-nodeapi&quot;&gt;
+   &lt;div class=&quot;event-tz&quot;&gt;&lt;label&gt;Timezone: &lt;/label&gt;US/Pacific &lt;/div&gt;
+  &lt;/div&gt;
+&lt;style type=&quot;text/css&quot;&gt;
+.event-nodeapi, .submitted {display:none}
+&lt;/style&gt;
+&lt;p&gt;
+Thicker web clients and server-side JavaScript create complexity that must be managed through architectural patterns. JavaScript hasn&#039;t yet embraced lessons learned from other platforms, like Java+Spring. Existing JavaScript MVC frameworks are too rigid and lack sufficient architectural plumbing. JavaScript needs flexible architectural infrastructure for building bigger, better apps.
+&lt;/p&gt;
+&lt;p&gt;
+In this talk, Brian Cavalier and John Hann will introduce several concepts, including JavaScript Modules and Inversion of Control, and demonstrate how they alleviate many of the dominant problems encountered when building large JavaScript apps. Attendees will gain a firmer understanding of new architectural patterns and witness tangible examples of how these patterns improve testability, refactorability, composability, division of work, and team scalability.
+&lt;/p&gt;
+&lt;p&gt;
+North America: Thursday, January 31&lt;br&gt;
+10:00 Pacific Standard (San Francisco, GMT-8:00) &lt;br&gt;
+&lt;a href=&quot;https://vmwareevents.webex.com/vmwareevents/onstage/g.php?t=a&amp;d=665181905&quot; target=&quot;_blank&quot;&gt;Register&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;
+Europe: Thursday, January 31&lt;br&gt;
+3:00pm Western Europe (London, GMT)&lt;br&gt;
+&lt;a href=&quot;https://vmwareevents.webex.com/vmwareevents/onstage/g.php?t=a&amp;d=661598149&quot; target=&quot;_blank&quot;&gt;Register&lt;/a&gt;
+&lt;/p&gt;</description>
+ <comments>http://www.springsource.org/node/3768#comments</comments>
+ <pubDate>Thu, 13 Dec 2012 20:05:45 +0000</pubDate>
+ <dc:creator>Chloe Jackson</dc:creator>
+ <guid isPermaLink="false">3768 at http://www.springsource.org</guid>
+</item>
+<item>
+ <title>Webinar: Architecture of a Modern Web App</title>
+ <link>http://www.springsource.org/node/3767</link>
+ <description>&lt;div class=&quot;event-nodeapi&quot;&gt;
+  &lt;div class=&quot;event-start dtstart&quot; title=&quot;2013-01-24T17:00:00Z&quot;&gt;&lt;label&gt;Start:  &lt;/label&gt; 2013-01-24 10:00 &lt;/div&gt;
+&lt;/div&gt;
+  &lt;div class=&quot;event-nodeapi&quot;&gt;
+    &lt;div class=&quot;event-end dtend&quot; title=&quot;2013-01-24T18:00:00Z&quot;&gt;&lt;label&gt;End: &lt;/label&gt; 2013-01-24 11:00 &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;div class=&quot;event-nodeapi&quot;&gt;
+   &lt;div class=&quot;event-tz&quot;&gt;&lt;label&gt;Timezone: &lt;/label&gt;US/Pacific &lt;/div&gt;
+  &lt;/div&gt;
+&lt;div class=&quot;event-nodeapi&quot;&gt;
+  &lt;div class=&quot;event-start dtstart&quot; title=&quot;2013-01-24T17:00:00Z&quot;&gt;&lt;label&gt;Start:  &lt;/label&gt; 2013-01-24 10:00 &lt;/div&gt;
+&lt;/div&gt;
+  &lt;div class=&quot;event-nodeapi&quot;&gt;
+    &lt;div class=&quot;event-end dtend&quot; title=&quot;2013-01-24T18:00:00Z&quot;&gt;&lt;label&gt;End: &lt;/label&gt; 2013-01-24 11:00 &lt;/div&gt;
+  &lt;/div&gt;
+ &lt;div class=&quot;event-nodeapi&quot;&gt;
+   &lt;div class=&quot;event-tz&quot;&gt;&lt;label&gt;Timezone: &lt;/label&gt;US/Pacific &lt;/div&gt;
+  &lt;/div&gt;
+&lt;style type=&quot;text/css&quot;&gt;
+.event-nodeapi, .submitted {display:none}
+&lt;/style&gt;
+
+&lt;p&gt;No longer are servers the exclusive holder of smarts and clients simply dumb terminals. Modern applications leverage the strengths of both the client and server to accomplish their tasks. No longer can a client side developer ignore the server, nor a server side developer ignore the client. This talk will explore the interconnected world of clients and servers, drawing inspiration from emerging frameworks that are pushing the limits of what’s possible. &lt;/p&gt;
+
+&lt;p&gt;We will look at the history of web development to uncover trends that inform future development paradigms. The strengths and weaknesses of each paradigm will be discussed in order to help determine the best fit for a project.&lt;/p&gt;
+&lt;p&gt;
+North America: Thursday, January 24&lt;br&gt;
+10:00 Pacific Standard (San Francisco, GMT-8:00) &lt;br&gt;
+&lt;a href=&quot;https://vmwareevents.webex.com/vmwareevents/onstage/g.php?t=a&amp;d=665428781&quot; target=&quot;_blank&quot;&gt;Register&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;
+Europe: Thursday, January 24&lt;br&gt;
+3:00pm Western Europe (London, GMT)&lt;br&gt;
+&lt;a href=&quot;https://vmwareevents.webex.com/vmwareevents/onstage/g.php?t=a&amp;d=660722984&quot; target=&quot;_blank&quot;&gt;Register&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://www.springsource.org/node/3767#comments</comments>
+ <pubDate>Thu, 13 Dec 2012 20:00:23 +0000</pubDate>
+ <dc:creator>Chloe Jackson</dc:creator>
+ <guid isPermaLink="false">3767 at http://www.springsource.org</guid>
+</item>
+<item>
+ <title>Spring Security 3.2.0.M1 Released</title>
+ <link>http://www.springsource.org/node/3766</link>
+ <description>&lt;p&gt;The first milestone release toward Spring Security 3.2 is now available from the SpringSource repository at &lt;a href=&quot;http://repo.springsource.org&quot;&gt;http://repo.springsource.org&lt;/a&gt;.  See &lt;a href=&quot;https://github.com/SpringSource/spring-framework/wiki/Downloading-Spring-artifacts#wiki-resolving-spring-artifacts&quot;&gt;here&lt;/a&gt; for a quick tutorial on resolving these artifacts via Maven.&lt;/p&gt;
+&lt;p&gt;The highlights of this release include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Concurency Support&lt;/li&gt;
+&lt;li&gt;Servlet 3, Async Support&lt;/li&gt;
+&lt;li&gt;Spring MVC Async Integration&lt;/li&gt;
+&lt;li&gt;Servlet 3 API Integration&lt;/li&gt;
+&lt;li&gt;New Servlet API Sample Application&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Stay tuned to the &lt;a target=&quot;_blank&quot; href=&quot;http://blog.springsource.com&quot;&gt;SpringSource Blog&lt;/a&gt; over the coming week for information on what&#039;s new in 3.2.0.M1.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://jira.springsource.org/secure/ReleaseNote.jspa?projectId=10040&amp;amp;version=13104&quot;&gt;Changelog&lt;/a&gt; | &lt;a href=&quot;http://www.springsource.com/download/community?project=Spring%20Security&amp;amp;version=3.2.0.M1&quot;&gt;Download&lt;/a&gt; | &lt;a href=&quot;http://static.springsource.org/spring-security/site/docs/3.2.x/reference/springsecurity-single.html&quot;&gt;Reference Manual&lt;/a&gt; | &lt;a href=&quot;http://static.springsource.org/spring-security/site/faq.html&quot;&gt;FAQ&lt;/a&gt;&lt;/p&gt;
+</description>
+ <comments>http://www.springsource.org/node/3766#comments</comments>
+ <category domain="http://www.springsource.org/taxonomy/term/4">News and Announcements</category>
+ <pubDate>Thu, 13 Dec 2012 02:40:26 +0000</pubDate>
+ <dc:creator>rwinch</dc:creator>
+ <guid isPermaLink="false">3766 at http://www.springsource.org</guid>
+</item>
+</channel>
+</rss>
