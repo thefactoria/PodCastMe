@@ -1,2 +1,2 @@
 eclipse.preferences.version=1
-org.codehaus.groovy.eclipse.dsl.projects.ignore=PodeCastMe 0
+org.codehaus.groovy.eclipse.dsl.projects.ignore=TestComp,FriendsOfMin,POD,PodeCastMe0

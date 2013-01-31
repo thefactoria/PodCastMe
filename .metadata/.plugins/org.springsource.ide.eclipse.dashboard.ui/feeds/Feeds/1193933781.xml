@@ -13,11 +13,41 @@
 	<atom:link href="http://blog.springsource.org/feed/" rel="self" type="application/rss+xml" />
 	<link>http://blog.springsource.org</link>
 	<description>The voice of SpringSource</description>
-	<lastBuildDate>Tue, 08 Jan 2013 20:20:37 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 23 Jan 2013 00:42:05 +0000</lastBuildDate>
 	<language>en</language>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
 	<generator>http://wordpress.org/?v=3.1.1</generator>
+		<item>
+		<title>Simple templates for the Scripted Editor</title>
+		<link>http://blog.springsource.org/2013/01/22/simple-templates-for-the-scripted-editor/</link>
+		<comments>http://blog.springsource.org/2013/01/22/simple-templates-for-the-scripted-editor/#comments</comments>
+		<pubDate>Wed, 23 Jan 2013 00:42:05 +0000</pubDate>
+		<dc:creator>Andrew Eisenberg</dc:creator>
+				<category><![CDATA[Open Source]]></category>
+		<category><![CDATA[Tools]]></category>
+		<category><![CDATA[Web]]></category>
+		<category><![CDATA[JavaScript]]></category>
+
+		<guid isPermaLink="false">http://blog.springsource.org/?p=12562</guid>
+		<description><![CDATA[One of the major goals of <a href="https://github.com/scripted-editor/scripted/">Scripted Editor</a> 0.4 is extensibility.  We <a href="http://blog.springsource.org/2013/01/08/scripted-editor-0-3-release-available/">recently released 0.3</a> and we are making fast progress towards 0.4.  Part of the extensibility story is simple declarative extensions to editor functionality (the other part is a powerful plugin model, which will be described in a future blog post).  In this blog post, I will introduce custom code completions and templates for the Scripted editor.]]></description>
+		<wfw:commentRss>http://blog.springsource.org/2013/01/22/simple-templates-for-the-scripted-editor/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>Next Stop: Spring Framework 4.0</title>
+		<link>http://blog.springsource.org/2013/01/16/next-stop-spring-framework-4-0/</link>
+		<comments>http://blog.springsource.org/2013/01/16/next-stop-spring-framework-4-0/#comments</comments>
+		<pubDate>Wed, 16 Jan 2013 13:20:17 +0000</pubDate>
+		<dc:creator>Juergen Hoeller</dc:creator>
+				<category><![CDATA[Java]]></category>
+		<category><![CDATA[Spring]]></category>
+
+		<guid isPermaLink="false">http://blog.springsource.org/?p=12463</guid>
+		<description><![CDATA[Dear Spring community, I&#039;m happy to announce that the next iteration of the core framework will be Spring Framework 4.0! The current 3.2 generation is a natural conclusion of the 3.x line, with Java-based configuration and REST having been recent focus areas next to Java SE 7 and Servlet 3.0 support. For Spring Framework 4.0,  <a href="http://blog.springsource.org/2013/01/16/next-stop-spring-framework-4-0/"><em>Read more...</em></a>]]></description>
+		<wfw:commentRss>http://blog.springsource.org/2013/01/16/next-stop-spring-framework-4-0/feed/</wfw:commentRss>
+		<slash:comments>9</slash:comments>
+		</item>
 		<item>
 		<title>Scripted Editor 0.3 release available</title>
 		<link>http://blog.springsource.org/2013/01/08/scripted-editor-0-3-release-available/</link>
@@ -31,7 +61,7 @@
 		<guid isPermaLink="false">http://blog.springsource.org/?p=12415</guid>
 		<description><![CDATA[In October the first public version of the Scripted code editor was made available, a browser based editor using a Node.js local server, with a focus on providing a great JavaScript editing experience. Today the first update is available, version 0.3. A full set of Release Notes about the latest features is available here. Here  <a href="http://blog.springsource.org/2013/01/08/scripted-editor-0-3-release-available/"><em>Read more...</em></a>]]></description>
 		<wfw:commentRss>http://blog.springsource.org/2013/01/08/scripted-editor-0-3-release-available/feed/</wfw:commentRss>
-		<slash:comments>2</slash:comments>
+		<slash:comments>4</slash:comments>
 		</item>
 		<item>
 		<title>Spring Roo 1.2.3.RELEASE available</title>
@@ -85,7 +115,7 @@
 		<guid isPermaLink="false">http://blog.springsource.org/?p=12215</guid>
 		<description><![CDATA[Last October, at SpringOne2GX, I introduced the Spring Scala project to the world. Since then, I&#039;ve also presented this project at Devoxx. In this blog post, I would like to give further details about this project and how you can use it in your Scala projects. Why Spring Scala? The goal of the Spring Scala  <a href="http://blog.springsource.org/2012/12/10/introducing-spring-scala/"><em>Read more...</em></a>]]></description>
 		<wfw:commentRss>http://blog.springsource.org/2012/12/10/introducing-spring-scala/feed/</wfw:commentRss>
-		<slash:comments>16</slash:comments>
+		<slash:comments>18</slash:comments>
 		</item>
 		<item>
 		<title>IOC + Javascript at SpringOne 2GX</title>
@@ -131,37 +161,6 @@
 		<description><![CDATA[Scripted, a JavaScript editor from VMWare was announced on this blog last month. In this article we&#039;ll take a look under the hood at Scripted&#039;s Dependency Analysis Engine. But before diving into the details, lets motivate why we need it. Main Motivation: Cross-file Content Assist To provide a great JavaScript editing experience, Scripted needs to  <a href="http://blog.springsource.org/2012/11/20/scripted-dependency-analysis/"><em>Read more...</em></a>]]></description>
 		<wfw:commentRss>http://blog.springsource.org/2012/11/20/scripted-dependency-analysis/feed/</wfw:commentRss>
 		<slash:comments>1</slash:comments>
-		</item>
-		<item>
-		<title>Spring Framework 3.2 RC1: Spring MVC Test Framework</title>
-		<link>http://blog.springsource.org/2012/11/12/spring-framework-3-2-rc1-spring-mvc-test-framework/</link>
-		<comments>http://blog.springsource.org/2012/11/12/spring-framework-3-2-rc1-spring-mvc-test-framework/#comments</comments>
-		<pubDate>Mon, 12 Nov 2012 14:13:37 +0000</pubDate>
-		<dc:creator>Rossen Stoyanchev</dc:creator>
-				<category><![CDATA[Spring]]></category>
-		<category><![CDATA[Testing]]></category>
-		<category><![CDATA[Web]]></category>
-
-		<guid isPermaLink="false">http://blog.springsource.org/?p=12053</guid>
-		<description><![CDATA[Update Dec 19, 2012 The final Spring Framework reference documentation contains guidance on migration as well as a complete section on Spring MVC Test. Last week Juergen Hoeller announced the release of Spring Framework 3.2 RC1 and Sam Brannen discussed exciting additions in its spring-test module such as support for WebApplicationContext&#039;s and upcoming plans for  <a href="http://blog.springsource.org/2012/11/12/spring-framework-3-2-rc1-spring-mvc-test-framework/"><em>Read more...</em></a>]]></description>
-		<wfw:commentRss>http://blog.springsource.org/2012/11/12/spring-framework-3-2-rc1-spring-mvc-test-framework/feed/</wfw:commentRss>
-		<slash:comments>10</slash:comments>
-		</item>
-		<item>
-		<title>Spring Framework 3.2 RC1: New Testing Features</title>
-		<link>http://blog.springsource.org/2012/11/07/spring-framework-3-2-rc1-new-testing-features/</link>
-		<comments>http://blog.springsource.org/2012/11/07/spring-framework-3-2-rc1-new-testing-features/#comments</comments>
-		<pubDate>Wed, 07 Nov 2012 17:23:18 +0000</pubDate>
-		<dc:creator>Sam Brannen</dc:creator>
-				<category><![CDATA[Java]]></category>
-		<category><![CDATA[Spring]]></category>
-		<category><![CDATA[Testing]]></category>
-		<category><![CDATA[Web]]></category>
-
-		<guid isPermaLink="false">http://blog.springsource.org/?p=12024</guid>
-		<description><![CDATA[As Juergen Hoeller mentioned in his post announcing the release of Spring Framework 3.2 RC1, the Spring Team has introduced some exciting new features in terms of testing support. Most importantly, we&#039;ve added first-class support for testing web applications. [1] &#160;&#160;&#160;&#160;&#160;&#160;Please note: this is a cross post from my Swiftmind company blog. In this post  <a href="http://blog.springsource.org/2012/11/07/spring-framework-3-2-rc1-new-testing-features/"><em>Read more...</em></a>]]></description>
-		<wfw:commentRss>http://blog.springsource.org/2012/11/07/spring-framework-3-2-rc1-new-testing-features/feed/</wfw:commentRss>
-		<slash:comments>11</slash:comments>
 		</item>
 	</channel>
 </rss>

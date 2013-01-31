@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
 <installs>
-<install is-default="true">
+<install is-default="false">
 <home>D:\Program Files\GG\grails-2.1.1\</home>
 <name>Grails 2.1.1</name>
+</install>
+<install is-default="true">
+<home>D:\Program Files\GG\grails-2.0.1\</home>
+<name>Grails 2.0.1</name>
 </install>
 </installs>
