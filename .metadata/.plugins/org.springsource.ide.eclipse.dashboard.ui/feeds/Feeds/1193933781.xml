@@ -13,11 +13,25 @@
 	<atom:link href="http://blog.springsource.org/feed/" rel="self" type="application/rss+xml" />
 	<link>http://blog.springsource.org</link>
 	<description>The voice of SpringSource</description>
-	<lastBuildDate>Wed, 23 Jan 2013 00:42:05 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 31 Jan 2013 04:18:51 +0000</lastBuildDate>
 	<language>en</language>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
 	<generator>http://wordpress.org/?v=3.1.1</generator>
+		<item>
+		<title>Groovy 2.1 released</title>
+		<link>http://blog.springsource.org/2013/01/25/groovy-2-1-released/</link>
+		<comments>http://blog.springsource.org/2013/01/25/groovy-2-1-released/#comments</comments>
+		<pubDate>Fri, 25 Jan 2013 09:33:50 +0000</pubDate>
+		<dc:creator>Guillaume Laforge</dc:creator>
+				<category><![CDATA[Groovy/Grails]]></category>
+		<category><![CDATA[Java]]></category>
+
+		<guid isPermaLink="false">http://blog.springsource.org/?p=12590</guid>
+		<description><![CDATA[The Groovy team is pleased to announce the release of Groovy 2.1.0. With over 1.7 million downloads in 2012, a strong ecosystem of successful projects like Grails, Gradle, Spock or Griffon built on Groovy, the Groovy programming language continues its development and adoption, refines existing features and evolves new ones. In this new release, Groovy 2.1: offers full support  <a href="http://blog.springsource.org/2013/01/25/groovy-2-1-released/"><em>Read more...</em></a>]]></description>
+		<wfw:commentRss>http://blog.springsource.org/2013/01/25/groovy-2-1-released/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
 		<item>
 		<title>Simple templates for the Scripted Editor</title>
 		<link>http://blog.springsource.org/2013/01/22/simple-templates-for-the-scripted-editor/</link>
@@ -88,7 +102,7 @@
 		<guid isPermaLink="false">http://blog.springsource.org/?p=12321</guid>
 		<description><![CDATA[Last week I announced the release of Spring Security 3.2 M1 that contains improved Servlet 3 support. In this post, I will introduce some of the more exciting features found in the 3.2 M1 release. Specifically, we will take a look at the following new Spring Security features: Concurrency Support Servlet 3 API Integration Servlet  <a href="http://blog.springsource.org/2012/12/17/spring-security-3-2-m1-highlights-servlet-3-api-support/"><em>Read more...</em></a>]]></description>
 		<wfw:commentRss>http://blog.springsource.org/2012/12/17/spring-security-3-2-m1-highlights-servlet-3-api-support/feed/</wfw:commentRss>
-		<slash:comments>7</slash:comments>
+		<slash:comments>9</slash:comments>
 		</item>
 		<item>
 		<title>Spring Framework 3.2 goes GA</title>
@@ -146,21 +160,6 @@
 		<description><![CDATA[It&#039;s my pleasure to announce that we&#039;ve released the first milestone of Spring Migration Analyzer (SMA), a command-line utility that analyzes enterprise Java applications and produces a report describing the application and how it can be migrated to Spring. Why migrate an application to Spring? We see two main reasons when people choose to use  <a href="http://blog.springsource.org/2012/11/27/introducing-spring-migration-analyzer/"><em>Read more...</em></a>]]></description>
 		<wfw:commentRss>http://blog.springsource.org/2012/11/27/introducing-spring-migration-analyzer/feed/</wfw:commentRss>
 		<slash:comments>3</slash:comments>
-		</item>
-		<item>
-		<title>Dependency analysis in Scripted</title>
-		<link>http://blog.springsource.org/2012/11/20/scripted-dependency-analysis/</link>
-		<comments>http://blog.springsource.org/2012/11/20/scripted-dependency-analysis/#comments</comments>
-		<pubDate>Tue, 20 Nov 2012 07:01:48 +0000</pubDate>
-		<dc:creator>Kris De Volder</dc:creator>
-				<category><![CDATA[Open Source]]></category>
-		<category><![CDATA[Tools]]></category>
-		<category><![CDATA[JavaScript]]></category>
-
-		<guid isPermaLink="false">http://blog.springsource.org/?p=12117</guid>
-		<description><![CDATA[Scripted, a JavaScript editor from VMWare was announced on this blog last month. In this article we&#039;ll take a look under the hood at Scripted&#039;s Dependency Analysis Engine. But before diving into the details, lets motivate why we need it. Main Motivation: Cross-file Content Assist To provide a great JavaScript editing experience, Scripted needs to  <a href="http://blog.springsource.org/2012/11/20/scripted-dependency-analysis/"><em>Read more...</em></a>]]></description>
-		<wfw:commentRss>http://blog.springsource.org/2012/11/20/scripted-dependency-analysis/feed/</wfw:commentRss>
-		<slash:comments>1</slash:comments>
 		</item>
 	</channel>
 </rss>

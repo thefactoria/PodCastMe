@@ -20,19 +20,19 @@
 			<location>D:/Program Files/GG/grails-2.1.1/scripts</location>
 		</link>
 		<link>
-			<name>.link7</name>
+			<name>.link2</name>
+			<type>2</type>
+			<location>C:/Users/LARAKI/.grails/2.1.1/projects/PodeCastMe/plugin-classes</location>
+		</link>
+		<link>
+			<name>.link3</name>
 			<type>2</type>
 			<location>C:/Users/LARAKI/.groovy/greclipse/global_dsld_support</location>
 		</link>
 		<link>
-			<name>.link8</name>
+			<name>.link4</name>
 			<type>2</type>
 			<location>D:/Program Files/GG/ggts-3.1.0.RELEASE/plugins/org.codehaus.groovy_1.8.6.xx-20120921-2000-e42RELEASE/plugin_dsld_support</location>
-		</link>
-		<link>
-			<name>.link9</name>
-			<type>2</type>
-			<location>C:/Users/LARAKI/.grails/2.1.1/projects/POD/plugin-classes</location>
 		</link>
 	</linkedResources>
 </projectDescription>
