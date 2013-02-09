@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="LARAKI-VAIO" name="friendsofmin.MembreTests" tests="1" time="0.205" timestamp="2012-03-03T22:30:28">
-  <properties />
-  <testcase classname="friendsofmin.MembreTests" name="testToString" time="0.201" />
-  <system-out><![CDATA[--Output from testToString--
-]]></system-out>
-  <system-err><![CDATA[--Output from testToString--
-]]></system-err>
-</testsuite>
