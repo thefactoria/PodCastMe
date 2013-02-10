@@ -1,4 +1,4 @@
-Projet : L'idée est de créer  une application Web communautaire de partage et de gestion de PodCast.
+﻿Projet : L'idée est de créer  une application Web communautaire de partage et de gestion de PodCast.
 Nom de l’application : PodCastMe
 
 
@@ -36,4 +36,4 @@ Le système doit permettre aux utilisateurs de :
 3. rechercher par date
 -Ajouter et commenter des flux sur l’application.
 -Mettre une note pour un Podcast.
-4-Gerer Utilisateurs
+4-Gerer Utilisateurs 
