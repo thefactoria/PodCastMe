@@ -1,17 +1,21 @@
 <!DOCTYPE html>
 <html dir="ltr" lang="en-US"><head>
     <meta charset="utf-8">
-    <title>Nouvelle Page</title>
+    <title>Contacts</title>
     <meta name="viewport" content="initial-scale = 1.0, maximum-scale = 1.0, user-scalable = no, width = device-width">
 
-    <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
     <!--[if lte IE 7]><link rel="stylesheet" href="style.ie7.css" media="screen" /><![endif]-->
-    <link rel="stylesheet" href="${resource(dir: 'css', file: 'style_auth.css')}" media="screen">
-    <link rel="stylesheet" href="${resource(dir: 'css', file: 'style.responsive.css')}" media="screen">
+
+    <link rel="stylesheet" href="${resource(dir: 'css', file: 'style.responsive.css')}" type="text/css" media="all">
+    <link rel="stylesheet" href="${resource(dir: 'css', file: 'style.css')}" media="screen">
 	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Actor&amp;subset=latin">
-	<script src="/test/static/js/jquery.js"></script>
+	    <script src="/test/static/js/jquery.js"></script>
     <script src="/test/static/js/script.js"></script>
     <script src="/test/static/js/script.responsive.js"></script>
+<meta name="description" content="Description">
+<meta name="keywords" content="Keywords">
 
 
 </head>
@@ -21,66 +25,41 @@
 
 
     <div class="art-shapes">
-<h1 class="art-headline" data-left="82.99%">
+<h1 class="art-headline" data-left="75.39%">
     <a href="#">PodCastMe</a>
 </h1>
 
 <div class="art-object1800006215" data-left="0%"></div>
 <div class="art-object0" data-left="3.36%"></div>
-<div class="art-textblock art-object109289830" data-left="100%">
-        <div class="art-object109289830-text">
-	
-	<form>
-	<table style="border-spacing : 10px; ">
-	<tr>
-	<td>
-	Login : </td>
-	<td>
-	<input type="text" ></input>
-	</td>
-	</tr>
-	<tr>
-	<td>Password : </td>
-	<td>
-	<input type="text">
-	</td>
-	</tr>
-	<tr>
-	<td>
-	<input type="submit" value="Connexion" class="art-button"></input>
-	</td>
-	<td>
-	<input type="submit" value="Inscription" class="art-button"></input>
-	</td>
-	</td>
-	</tr>
-	</table>
-	</form>
-	</div>
-    
-</div>
-            </div>
 
+            </div>
+<div class="art-textblock art-object1309420497" data-left="100%">
+    <form class="art-search" name="Search" action="javascript:void(0)">
+    <input type="text" value="">
+    <input type="submit" value="Search" name="search" class="art-search-button">
+</form>
+</div>
                         
                     
 </header>
+<nav class="art-nav clearfix">
+    <ul class="art-hmenu"><li><a href="index.html">Mes PodCasts</a></li><li><a href="podcasts-2.html" class="active">Podcasts</a></li><li><a href="contact.html">Contact</a></li></ul> 
+    </nav>
 <div class="art-sheet clearfix">
             <div class="art-layout-wrapper clearfix">
                 <div class="art-content-layout">
                     <div class="art-content-layout-row">
                         <div class="art-layout-cell art-content clearfix"><article class="art-post art-article">
-                                <h2 class="art-postheader"><center>PodCastMe est gratuit et il le restera Toujours!</center></h2>
+                                <h2 class="art-postheader">Liste PodCasts</h2>
                                                 
-                <div class="art-postcontent art-postcontent-0 clearfix"><p><br></p></div>
+
                                 
                 </article></div>
                     </div>
                 </div>
-            </div>
-            <footer class="art-footer clearfix">
+            </div><footer class="art-footer clearfix">
 Master 2 Développement Logiciels
 </footer>
-            
 
     </div>
 
