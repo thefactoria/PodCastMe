@@ -1,122 +1,102 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<meta name="layout" content="main"/>
-		<title>Welcome to Grails</title>
-		<style type="text/css" media="screen">
-			#status {
-				background-color: #eee;
-				border: .2em solid #fff;
-				margin: 2em 2em 1em;
-				padding: 1em;
-				width: 12em;
-				float: left;
-				-moz-box-shadow: 0px 0px 1.25em #ccc;
-				-webkit-box-shadow: 0px 0px 1.25em #ccc;
-				box-shadow: 0px 0px 1.25em #ccc;
-				-moz-border-radius: 0.6em;
-				-webkit-border-radius: 0.6em;
-				border-radius: 0.6em;
-			}
+<html dir="ltr" lang="en-US"><head>
+    <meta charset="utf-8">
+    <title>Accueil</title>
+   
+   <meta name="viewport" content="initial-scale = 1.0, maximum-scale = 1.0, user-scalable = no, width = device-width">
 
-			.ie6 #status {
-				display: inline; /* float double margin fix http://www.positioniseverything.net/explorer/doubled-margin.html */
-			}
+    <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 
-			#status ul {
-				font-size: 0.9em;
-				list-style-type: none;
-				margin-bottom: 0.6em;
-				padding: 0;
-			}
-            
-			#status li {
-				line-height: 1.3;
-			}
+    <!--[if lte IE 7]><link rel="stylesheet" href="style.ie7.css" media="screen" /><![endif]-->
 
-			#status h1 {
-				text-transform: uppercase;
-				font-size: 1.1em;
-				margin: 0 0 0.3em;
-			}
+    <link rel="stylesheet" href="${resource(dir: 'css', file: 'style.responsive.css')}" type="text/css" media="all">
+    <link rel="stylesheet" href="${resource(dir: 'css', file: 'style.css')}" media="screen">
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Actor&amp;subset=latin">
+	    <script src="/test/static/js/jquery.js"></script>
+    <script src="/test/static/js/script.js"></script>
+    <script src="/test/static/js/script.responsive.js"></script>
+	<meta name="description" content="Description">
+	<meta name="keywords" content="Keywords">
 
-			#page-body {
-				margin: 2em 1em 1.25em 18em;
-			}
 
-			h2 {
-				margin-top: 1em;
-				margin-bottom: 0.3em;
-				font-size: 1em;
-			}
+<style>.art-content .art-postcontent-0 .layout-item-0 { padding-top: 0px;padding-right: 20px;padding-bottom: 20px;padding-left: 20px;  }
+.art-content .art-postcontent-0 .layout-item-1 { border-top-style:solid;border-right-style:solid;border-bottom-style:solid;border-left-style:solid;border-width:1px;border-color:#9D95E4; color: #111222; background: #EAECF6; padding: 20px;  }
+.art-content .art-postcontent-0 .layout-item-2 { padding-top: 10px;padding-right: 20px;padding-bottom: 10px;padding-left: 20px;  }
+.ie7 .post .layout-cell {border:none !important; padding:0 !important; }
+.ie6 .post .layout-cell {border:none !important; padding:0 !important; }
 
-			p {
-				line-height: 1.5;
-				margin: 0.25em 0;
-			}
+</style></head>
+<body>
+<div id="art-main">
+<header class="art-header clearfix">
 
-			#controller-list ul {
-				list-style-position: inside;
-			}
 
-			#controller-list li {
-				line-height: 1.3;
-				list-style-position: inside;
-				margin: 0.25em 0;
-			}
+    <div class="art-shapes">
+<h1 class="art-headline" data-left="75.39%">
+    <a href="#">PodCastMe</a>
+</h1>
 
-			@media screen and (max-width: 480px) {
-				#status {
-					display: none;
-				}
+<div class="art-object1800006215" data-left="0%"></div>
+<div class="art-object0" data-left="3.36%"></div>
 
-				#page-body {
-					margin: 0 1em 1em;
-				}
+            </div>
+<div class="art-textblock art-object1309420497" data-left="100%">
+    <form class="art-search" name="Search" action="javascript:void(0)">
+    <input type="text" value="">
+    <input type="submit" value="Search" name="search" class="art-search-button">
+</form>
+</div>
+                        
+                    
+</header>
+<nav class="art-nav clearfix">
+    <ul class="art-hmenu"><li><a href="authentification.gsp" class="active">Mes PodCasts</a></li><li><a href="podcasts-2.html">Podcasts</a></li><li><a href="contact.html">Contact</a></li></ul> 
+    </nav>
+<div class="art-sheet clearfix">
+            <div class="art-layout-wrapper clearfix">
+                <div class="art-content-layout">
+                    <div class="art-content-layout-row">
+                        <div class="art-layout-cell art-content clearfix"><article class="art-post art-article">
+                                
+                                                
+                <div class="art-postcontent art-postcontent-0 clearfix"><div class="art-content-layout">
+    <div class="art-content-layout-row">
+    <div class="art-layout-cell layout-item-0" style="width: 100%" >
+        <h4>Inscription</h4>
 
-				#page-body h1 {
-					margin-top: 0;
-				}
-			}
-		</style>
-	</head>
-	<body>
-		<a href="#page-body" class="skip"><g:message code="default.link.skip.label" default="Skip to content&hellip;"/></a>
-		<div id="status" role="complementary">
-			<h1>Application Status</h1>
-			<ul>
-				<li>App version: <g:meta name="app.version"/></li>
-				<li>Grails version: <g:meta name="app.grails.version"/></li>
-				<li>Groovy version: ${org.codehaus.groovy.runtime.InvokerHelper.getVersion()}</li>
-				<li>JVM version: ${System.getProperty('java.version')}</li>
-				<li>Reloading active: ${grails.util.Environment.reloadingAgentEnabled}</li>
-				<li>Controllers: ${grailsApplication.controllerClasses.size()}</li>
-				<li>Domains: ${grailsApplication.domainClasses.size()}</li>
-				<li>Services: ${grailsApplication.serviceClasses.size()}</li>
-				<li>Tag Libraries: ${grailsApplication.tagLibClasses.size()}</li>
-			</ul>
-			<h1>Installed Plugins</h1>
-			<ul>
-				<g:each var="plugin" in="${applicationContext.getBean('pluginManager').allPlugins}">
-					<li>${plugin.name} - ${plugin.version}</li>
-				</g:each>
-			</ul>
-		</div>
-		<div id="page-body" role="main">
-			<h1>Welcome to Grails</h1>
-			<p>Congratulations, you have successfully started your first Grails application! At the moment
-			   this is the default page, feel free to modify it to either redirect to a controller or display whatever
-			   content you may choose. Below is a list of controllers that are currently deployed in this application,
-			   click on each to execute its default action:</p>
+    </div>
+    </div>
+</div>
+<div class="art-content-layout">
+    <div class="art-content-layout-row">
+    <div class="art-layout-cell layout-item-1" style="width: 100%" >
 
-			<div id="controller-list" role="navigation">
-				<h2>Available Controllers:</h2>
-				<ul>
-					<g:each var="c" in="${grailsApplication.controllerClasses.sort { it.fullName } }">
-						<li class="controller"><g:link controller="${c.logicalPropertyName}">${c.fullName}</g:link></li>
-					</g:each>
-				</ul>
-			</div>
-		</div>
-	</body>
-</html>
+    </div>
+    </div>
+</div>
+<div class="art-content-layout">
+    <div class="art-content-layout-row">
+    <div class="art-layout-cell layout-item-2" style="width: 60%" >
+
+        </div>
+        </div>
+    </div><div class="art-layout-cell layout-item-2" style="width: 40%" >
+
+    </div>
+    </div>
+</div>
+</div>
+                                
+                </article></div>
+                    </div>
+                </div>
+            </div><footer class="art-footer clearfix">
+Master 2 Développement Logiciels
+</footer>
+
+    </div>
+
+</div>
+
+
+</body></html>
