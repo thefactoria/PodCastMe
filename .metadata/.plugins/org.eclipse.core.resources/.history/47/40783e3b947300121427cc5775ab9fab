@@ -1,0 +1,13 @@
+package podcastDomain
+
+class Commentaire {
+
+	String text
+	Date dateCreated
+	
+	static constraints = {
+		nom (size:3..100)
+		
+	
+		  }
+}

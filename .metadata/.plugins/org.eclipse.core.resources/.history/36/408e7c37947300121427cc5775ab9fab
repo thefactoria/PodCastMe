@@ -1,0 +1,12 @@
+package podcastDomain
+
+class Commentaire {
+
+	String text
+	
+	static constraints = {
+		nom (size:3..100)
+		
+	
+		  }
+}

@@ -1,0 +1,17 @@
+package podcastDomain
+
+class Groupe {
+	
+	String nomGroupe
+	
+	static hasMany = [podcasts:Podcast]
+	Groupe groupe
+	static belongsTo = [groupe:Groupe]
+	
+	static constraints = {
+		nomGroupe (blank:false, nullable:false, size:3..30, matches:"[a-zA-Z1-9_]+")
+		
+		  }
+
+
+}

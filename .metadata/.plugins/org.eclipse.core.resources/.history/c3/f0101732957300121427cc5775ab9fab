@@ -1,0 +1,15 @@
+package podcastDomain
+
+class Commentaire {
+
+	String text
+	Date dateCreation
+	Groupe groupe
+	static belongsTo = [podcast:Podcast]
+	
+	static constraints = {
+		nom (size:3..100)
+		
+	
+		  }
+}
