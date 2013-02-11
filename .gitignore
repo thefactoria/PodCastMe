@@ -1,0 +1,24 @@
+.history
+
+# general
+*~
+*.log
+tmp
+dump
+
+# Eclipse
+.settings
+.cache
+.project
+.classpath
+bin
+
+# SBT
+
+project/target
+target
+.target
+
+
+
+
