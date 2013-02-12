@@ -50,6 +50,8 @@ grails.project.dependency.resolution = {
         build ":tomcat:$grailsVersion"
 
         runtime ":database-migration:1.1"
+		//Test Code with Coverage plugin commande grails : test-app -coverage
+		test ":code-coverage:1.2.5"
 		test ":spock:0.7"
         compile ':cache:1.0.0'
     }
