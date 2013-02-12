@@ -29,48 +29,33 @@
 <div class="art-object0" data-left="3.36%"></div>
 <div class="art-textblock art-object109289830" data-left="100%">
         <div class="art-object109289830-text">
-<g:if test="${session?.user}">
-</g:if>
-<g:else>
 	
-	<g:form  url="[controller:'user',action:'login']">
+	<form>
 	<table style="border-spacing : 10px; ">
 	<tr>
 	<td>
 	Login : </td>
 	<td>
-	<input name="username" type="text" ></input>
+	<input type="text" ></input>
 	</td>
 	</tr>
 	<tr>
 	<td>Password : </td>
 	<td>
-	<input name="password" type="text">
+	<input type="text">
 	</td>
 	</tr>
 	<tr>
 	<td>
 	<input type="submit" value="Connexion" class="art-button"></input>
-	
-	
 	</td>
-	<td>
-	</td>
-	</td>
-	</tr>
-	
-	</table>
-	</g:form>
-	<table style="border-spacing : 10px; ">
-	<tr>
 	<td>
 	<input type="submit" value="Inscription" class="art-button"></input>
 	</td>
-	<td>
 	</td>
-	</tr>	
+	</tr>
 	</table>
-	</g:else>
+	</form>
 	</div>
     
 </div>
