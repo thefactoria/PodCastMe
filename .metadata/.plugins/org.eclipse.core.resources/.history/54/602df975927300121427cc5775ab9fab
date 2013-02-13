@@ -1,8 +1,0 @@
-package podcastDomain
-
-class Commentaire {
-
-	String text
-	
-	
-}
