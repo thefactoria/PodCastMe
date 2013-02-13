@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <html dir="ltr" lang="en-US"><head>
+<sm:pagePlayer/>
+
     <meta charset="utf-8">
     <title>Accueil</title>
    
@@ -70,6 +72,13 @@
 <div class="art-content-layout">
     <div class="art-content-layout-row">
     <div class="art-layout-cell layout-item-1" style="width: 100%" >
+
+<sm:playlist>
+       <a href="${resource(dir: 'podcast', file: 'rain.mp3')}">First Track</a>
+       <a href="${resource(dir: 'podcast', file: 'rain.mp3')}">Second Track</a>
+       <a href="${resource(dir: 'podcast', file: 'rain.mp3')}">Rain Track</a>
+ </sm:playlist>
+
 
     </div>
     </div>
