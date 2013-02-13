@@ -6,6 +6,11 @@
 	</projects>
 	<buildSpec>
 		<buildCommand>
+			<name>org.eclipse.wst.common.project.facet.core.builder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
 			<name>org.eclipse.jdt.core.javabuilder</name>
 			<arguments>
 			</arguments>
@@ -21,11 +26,7 @@
 		<link>
 			<name>.link_to_grails_plugins</name>
 			<type>2</type>
-<<<<<<< HEAD
-			<location>C:/Documents and Settings/morchedi/.grails/2.1.1/projects/PodCastMe/plugins</location>
-=======
 			<locationURI>GRAILS_ROOT/2.1.1/projects/PodCastMe/plugins</locationURI>
->>>>>>> 264d8f925a6c2590f23d9168208d16982da1579c
 		</link>
 	</linkedResources>
 </projectDescription>

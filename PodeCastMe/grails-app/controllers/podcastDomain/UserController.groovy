@@ -64,7 +64,7 @@ class UserController {
 				//redirect(action: "list", params: params)
 			} else {
 			flash.message = "User not found"
-			render(view: "/inscription.gsp")
+			render(view: "/layouts/inscription.gsp")
 			}
 		} else if (session.user) {
 		// don't allow login while user is logged in
