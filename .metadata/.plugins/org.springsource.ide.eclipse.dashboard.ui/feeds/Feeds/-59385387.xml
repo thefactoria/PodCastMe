@@ -6,6 +6,111 @@
  <description>Welcome to the home of Spring, the leading platform to build and run enterprise Java applications. Led and sustained by SpringSource, Spring delivers significant benefits for many projects, increasing development productivity and runtime performance while improving test coverage and application quality.</description>
  <language>en</language>
 <item>
+ <title>This Week in Spring  - Feb 12th, 2013</title>
+ <link>http://www.springsource.org/node/3808</link>
+ <description>&lt;h1&gt; This Week in Spring &lt;/h1&gt; 
+&lt;P&gt; 
+ Welcome back to another installment of &lt;EM&gt;This Week in Spring &lt;/EM&gt;! 
+   As usual, we&#039;ve got a lot to cover, so let&#039;s get to it!
+&lt;/p&gt; 
+
+&lt;ol&gt;
+	&lt;li&gt;Dave Syer is taking his SpringOne2GX talk to an online audience on Feb 14th,   2013 Webinar - &lt;a href=&quot;http://www.springsource.org/node/3799&quot;&gt; When and Why Would I Use   OAuth2?&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;Dream team Sam Brannen (Swiftmind) &amp;amp; Rossen Stoyanchev (SpringSource)   join forces on Feb 21st, 2013 for a &lt;a href=&quot;http://www.springsource.org/node/3800&quot;&gt;Webinar: Testing Web Applications   with Spring 3.2&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;New SpringOne2GX 2012 talks released to YouTube in HD! &lt;a href=&quot;http://www.springsource.org/node/3807&quot;&gt;Ten Great Reasons to Virtualize Your Java Apps, and What&#039;s New in CloudFoundry&lt;/a&gt;.&lt;/li&gt;
+	&lt;LI&gt;Our pal Boris Lam is back, this time with two posts on how to &lt;a href=&quot;http://www.borislam.com/2013/02/sample-apps-spring-data-mongodb-and-jsf_11.html&quot;&gt;use Spring Data MongoDB&lt;/a&gt; and &lt;a href=&quot;http://www.borislam.com/2013/02/sample-apps-spring-data-mongodb-and-jsf.html&quot;&gt; JSF together&lt;/a&gt;.    &lt;/LI&gt;
+	&lt;LI&gt; 
+		The &lt;EM&gt;PluralSight&lt;/EM&gt; blog has a &lt;a href=&quot;http://blog.pluralsight.com/tag/spring-mvc/&quot;&gt;video introduction to Spring MVC &lt;EM&gt;interceptor&lt;/EM&gt;s&lt;/a&gt;. This video is an excerpt from a full-fledged video course.
+		
+	&lt;/LI&gt;
+	&lt;LI&gt;  Cool demonstration: &lt;A href=&quot;http://www.youtube.com/watch?v=LTxd0PGDaMI&amp;list=UU7yfnfvEUlXUIfm8rGLwZdA&amp;index=1&quot;&gt;Spring Insight plugins for Spring Integration and RabbitMQ&lt;/a&gt;. 
+  &lt;/LI&gt;
+	&lt;LI&gt; The  &lt;EM&gt;syntx&lt;/EM&gt; blog has a  nice post on how to &lt;A href=&quot;http://syntx.co/languages-frameworks/adding-http-basic-auth-to-restful-services-in-java-and-spring/&quot;&gt;add HTTP Basic authentication using Spring Security to Spring MVC-secured resources&lt;/a&gt;.  	&lt;/LI&gt;
+ &lt;LI&gt; 
+	 &lt;EM&gt;Krishna&#039;s Blog&lt;/EM&gt; has a nice post  introducing   
+	 &lt;A href=&quot;http://krishnasblog.com/2013/02/10/spring-test-mvc-junit-testing-spring-security-layer-with-inmemorydaoimpl-2/&quot;&gt;
+	 unit-testing the Spring Security layer with the &lt;COde&gt;InMemoryDaoImpl&lt;/CODE&gt;. 
+    &lt;/A&gt;
+  &lt;/LI&gt;
+
+	&lt;LI&gt;  You know, I was looking for something like this just the other day!  &lt;EM&gt;Mark&#039;s Blog &lt;/EM&gt; has a nice post on the &lt;A href=&quot;http://markchensblog.blogspot.com/2013/02/how-spring-mvc-works.html&quot;&gt; workflow of the various objects in servicing an incoming HTTP request in Spring MVC&lt;/a&gt;.  Is this stuff you could easily figure out by sticking a breakpoint in a controller and just looking at the call stack? Sure. But it&#039;s also stuff that&#039;s   &lt;EM&gt;very&lt;/EM&gt; convenient to reference in a pinch and it&#039;s nice to see it all laid out in order with a little bit of narrative. 	&lt;/LI&gt;
+ 	&lt;LI&gt;The &lt;EM&gt;Dinesh on Java&lt;/EM&gt; blog has a nice &lt;a href=&quot;http://www.dineshonjava.com/2013/02/spring-security-hello-world-example.html#.URmbLlqb99Q&quot;&gt;post on how to  setup Spring Security&lt;/a&gt;.  	&lt;/LI&gt;
+	&lt;LI&gt; The &lt;EM&gt;Lucky Ryan&lt;/EM&gt; blog has a really &lt;EM&gt;&amp;agrave; propos&lt;/EM&gt; post on &lt;A href=&quot;http://www.luckyryan.com/2013/02/07/migrate-spring-mvc-servlet-xml-to-java-config&quot;&gt;migrating XML-based Spring MVC configuration to the Java and annotation centric alternative&lt;/a&gt;.   	&lt;/LI&gt;
+	&lt;LI&gt; The &lt;EM&gt;Java Code Geeks&lt;/EM&gt; blog has a very nice post on  &lt;a href=&quot;http://www.javacodegeeks.com/2013/02/exception-handling-for-rest-with-spring-3-2.html&quot;&gt; exception handling when dealing with REST services&lt;/a&gt; 	&lt;/LI&gt;
+	&lt;LI&gt; 
+		 Our pal Roger Hughes is back, this time with a nice writeup of &lt;a href=&quot;http://www.captaindebug.com/2013/01/three-spring-bean-lifecycle-techniques.html#.URnKNFqb99R&quot;&gt;a few of 
+		the various lifecycle techniques for Spring beans&lt;/a&gt;.
+	&lt;/LI&gt; &lt;Li&gt; The &lt;EM&gt;CommonJ&lt;/EM&gt; blog has a nice post on &lt;A href=&quot;http://www.commonj.com/blogs/2013/02/10/spring-mvc-tutorial-passing-request-parameters-via-javascript-jquery-example/&quot;&gt; passing request parameters to Spring MVC from JavaScript&lt;/a&gt;.  This one is &lt;EM&gt;faintly&lt;/EM&gt; related to Spring MVC, but close enough! :) &lt;/LI&gt;
+&lt;/ol&gt;</description>
+ <comments>http://www.springsource.org/node/3808#comments</comments>
+ <category domain="http://www.springsource.org/taxonomy/term/14">This Week in Spring</category>
+ <pubDate>Tue, 12 Feb 2013 18:36:27 +0000</pubDate>
+ <dc:creator>Josh Long</dc:creator>
+ <guid isPermaLink="false">3808 at http://www.springsource.org</guid>
+</item>
+<item>
+ <title>SpringOne 2GX 2012 Replays: Ten Great Reasons to Virtualize Java Applications, What&#039;s New in CloudFoundry</title>
+ <link>http://www.springsource.org/node/3807</link>
+ <description>&lt;H1&gt;Ten Great Reasons to Virtualize Your Java Apps&lt;/H1&gt;
+&lt;DIV&gt;
+  &lt;p&gt;Customer interest in virtualizing Java workloads has been growing   exponentially year on year. For the last few years, the focus has been   largely around looking for best practice guidance to mitigate concerns   around virtualizing Java workloads, particularly in the area of   performance. Since joining VMware, SpringSource has been investing in   providing first class support for the Java runtime on vSphere with   products such as EM4J. Combined with the industry-leading capabilities   of the vSphere platform and the growing product portfolio around the   Java ecosystem, there are many great reasons to virtualize Java. &lt;/p&gt;
+  &lt;p&gt;So rather than continuing to ask the question, is it OK to virtualize   Java, this session boldly aims to suggest that you would be crazy not   to!&lt;/p&gt;
+  &lt;p&gt;&lt;center&gt;&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;http://www.youtube.com/embed/zbC1xUDxpq4&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/center&gt;
+&lt;/p&gt;
+  &lt;BR&gt;
+&lt;/DIV&gt;
+&lt;DIV&gt;
+  &lt;center&gt;
+  &lt;/center&gt;
+&lt;div&gt;
+    &lt;div&gt;
+      &lt;h2&gt;About Benjamin Corrie&lt;/h2&gt;
+      &lt;a href=&quot;http://www.springone2gx.com/conference/washington/2012/10/speakers/benjamin_corrie&quot;&gt;&lt;img src=&quot;http://www.springone2gx.com/s/images/bio/41501_Corrie_20110921_185042_medium_sq.jpg&quot; alt=&quot;Benjamin Corrie&quot; /&gt;&lt;/a&gt;
+      &lt;p&gt;Ben Corrie has been working on Java since 1998, where he began at   IBM testing JDK 1.1.4. He progressed to working on the internals of   IBM&#039;s Java Virtual Machine where he lead a project to develop   industry-leading memory management technology for the JVM. He joined   SpringSource as a consultant in 2008 and moved to California a year   later to lead an effort to improve Java performance on vSphere. As the   tech lead on the recently announced EM4J project, he is successfully   helping to make vSphere the best place to run Java.&lt;/p&gt;
+      &lt;a href=&quot;http://www.springone2gx.com/conference/washington/2012/10/speakers/benjamin_corrie&quot;&gt;More About Benjamin »&lt;/a&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;h1&gt;What&#039;s New in Cloud Foundry&lt;/h1&gt;
+&lt;div&gt;
+  &lt;p&gt; Come to this session to get an in-depth view   of the latest and greatest in Cloud Foundry.  It&#039;s easier than ever   before to build and deploy your distributed polyglot applications.  You   will see some exciting new options, including new Java and Node runtimes   and support for background workers and container-less web apps.  These   features allow you to create distributed apps comprised of many smaller,   focused apps each written in the framework that fits its purpose best.    We will also explore the latest in tooling, including new features in   the STS plugin and the brand new &amp;quot;next gen&amp;quot; VMC client. We will peek   under the hood to see what&#039;s new in the Cloud Foundry architecture. From Cloud   Foundry beginner to expert, this session has something for everyone.&lt;/p&gt;
+  &lt;p&gt;
+    &lt;center&gt;
+      &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;http://www.youtube.com/embed/25hWn46YTro&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+    &lt;/center&gt;
+  &lt;/p&gt;
+  &lt;br /&gt;
+&lt;/div&gt;
+&lt;div&gt;
+
+  &lt;div&gt;&lt;br /&gt;
+  &lt;/div&gt;
+  &lt;div&gt;
+    &lt;div&gt;
+      &lt;div&gt;
+        &lt;h2&gt;About Jennifer Hickey&lt;/h2&gt;
+        &lt;a href=&quot;http://www.springone2gx.com/conference/washington/2012/10/speakers/jennifer_hickey&quot;&gt;&lt;img src=&quot;http://www.springone2gx.com/s/images/bio/12976_Hickey_20110418_112151_medium_sq.jpg&quot; alt=&quot;Jennifer Hickey&quot; /&gt;&lt;/a&gt;
+        &lt;p&gt;Jennifer Hickey is a Sr. Software Engineer with SpringSource/VMware,   with over a decade of experience in software engineering. Jennifer is a   member of the Cloud Foundry team, specializing in developer experience   and support of frameworks such as Spring, Grails, Rails, and Sinatra.    She is passionate about increasing developer productivity in the cloud.    Jennifer has led or contributed to a number of SpringSource projects,   including Hyperic and tc Server.  She has been involved in converting   multiple large EJB/legacy codebases to Spring.  Prior to joining   SpringSource, Jennifer was a principal architect of a large-scale   network management system.&lt;/p&gt;
+        &lt;a href=&quot;http://www.springone2gx.com/conference/washington/2012/10/speakers/jennifer_hickey&quot;&gt;More About Jennifer »&lt;/a&gt; &lt;br /&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+        &lt;h2&gt;About Ramnivas Laddad&lt;/h2&gt;
+        &lt;a href=&quot;http://www.springone2gx.com/conference/washington/2012/10/speakers/ramnivas_laddad&quot;&gt;&lt;img src=&quot;http://www.springone2gx.com/s/images/bio/8_Laddad_20110912_122803_medium_sq.jpg&quot; alt=&quot;Ramnivas Laddad&quot; /&gt;&lt;/a&gt;
+        &lt;p&gt;Ramnivas Laddad is a &lt;a href=&quot;http://springsource.com&quot; target=&quot;new&quot;&gt;SpringSource&lt;/a&gt; Principal Engineer. He has over a decade of experience in applying his   enterprise Java and aspect-oriented programming (AOP) expertise to   middleware, design automation, networking, web application, user   interface, and security projects. &lt;/p&gt;
+        &lt;p&gt; &lt;/p&gt;
+        &lt;p&gt;Ramnivas Laddad is a well-known expert in enterprise Java, especially   in the area of AOP and Spring. He is the author of AspectJ in Action,   the best-selling book on AOP and AspectJ that has been lauded by   industry experts for its presentation of practical and innovative AOP   applications to solve real-world problems. Ramnivas, a Spring framework   committer, is also an active presenter at leading industry events such   as JavaOne, JavaPolis, No Fluff Just Stuff, SpringOne, Software   Development, and has been an active member of both the AspectJ and   Spring communities from their beginnings.&lt;/p&gt;
+        &lt;a href=&quot;http://www.springone2gx.com/conference/washington/2012/10/speakers/ramnivas_laddad&quot;&gt;More About Ramnivas »&lt;/a&gt;&lt;/div&gt;
+      &lt;h2&gt;&amp;nbsp;&lt;/h2&gt;&lt;h2&gt;&lt;br /&gt;
+      &lt;/h2&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+ <pubDate>Tue, 12 Feb 2013 04:25:22 +0000</pubDate>
+ <dc:creator>Pieter Humphrey</dc:creator>
+ <guid isPermaLink="false">3807 at http://www.springsource.org</guid>
+</item>
+<item>
  <title>Become Spring Certified in 3 Steps</title>
  <link>http://www.springsource.org/how-to-become-spring-certified</link>
  <description>&lt;div style=&quot;float: right; width:114; padding: 10px&quot;&gt;&lt;a href=&quot;http://mylearn.vmware.com/mgrReg/plan.cfm?plan=31110&amp;ui=www_cert&quot;&gt;&lt;img alt=&quot;Spring Certification Logo&quot; border=&quot;0&quot; src=&quot;http://www.springsource.org/files/Spring-Cert.png&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;p&gt;Becoming officially &lt;strong&gt;Spring Certified&lt;/strong&gt; demonstrates your understanding of Spring and helps to advance your career as a Spring Developer. To become Spring Certified:&lt;/p&gt;
@@ -316,65 +421,6 @@ Charles Humble at InfoQ&#039;s &lt;a href= &quot;http://www.infoq.com/news/2013/
  <pubDate>Tue, 29 Jan 2013 21:49:33 +0000</pubDate>
  <dc:creator>Josh Long</dc:creator>
  <guid isPermaLink="false">3797 at http://www.springsource.org</guid>
-</item>
-<item>
- <title>Spring Hateoas 0.4 released</title>
- <link>http://www.springsource.org/node/3796</link>
- <description>&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt;
-&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;
-&lt;head&gt;
-&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=utf-8&quot; /&gt;
-&lt;title&gt;Untitled Document&lt;/title&gt;
-&lt;/head&gt;
-
-&lt;body&gt;
-&lt;p&gt;SpringSource would like to announce the release of  Spring Hateoas 0.4! &lt;/p&gt;
-&lt;p&gt; The Spring HATEOAS project provides some APIs to ease creating REST representations that follow the HATEOAS principle when working with Spring and especially Spring MVC. &lt;strong&gt;HATEOAS&lt;/strong&gt;, an abbreviation for &lt;strong&gt;Hypermedia as the Engine of Application State&lt;/strong&gt;, is a constraint of the REST application architecture that distinguishes it from most other network application architectures. The core problem it tries to address is link creation and representation assembly.&lt;/p&gt;
-&lt;p&gt;In this release, the most important new  features are:&lt;/p&gt;
-&lt;p&gt;- extended LinkBuilder API to point to Controller  *methods* as well&lt;br /&gt;
-  - Jackson 2 support&lt;br /&gt;
-  - HAL support&lt;br /&gt;
-  - EntityLinks API to create links pointing to controllers  managing a particular entity type&lt;br /&gt;
-- introduced LinkDiscoverer API to find links in  representations by rel (incl. JSONPath based implementation)&lt;/p&gt;
-&lt;p&gt;You can read about all of the new features and bug fixes in the  change log. Enjoy!&lt;/p&gt;
-&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;http://static.springsource.org/downloads/nightly/milestone-download.php?project=BATCH&quot;&gt;Download&lt;/a&gt; | &lt;a href=&quot;https://github.com/SpringSource/spring-hateoas#spring-hateoas&quot;&gt;Documentation&lt;/a&gt; | Javadoc API (coming soon) | &lt;a target=&quot;_blank&quot; href=&quot;https://raw.github.com/SpringSource/spring-hateoas/0.4.0.RELEASE/src/main/resources/changelog.txt&quot;&gt;Change Log&lt;/a&gt; | &lt;a href=&quot;https://github.com/SpringSource/spring-hateoas/issues&quot;&gt;Issues/Bugs&lt;/a&gt; |&lt;/p&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-</description>
- <comments>http://www.springsource.org/node/3796#comments</comments>
- <category domain="http://www.springsource.org/taxonomy/term/4">News and Announcements</category>
- <pubDate>Tue, 29 Jan 2013 21:32:12 +0000</pubDate>
- <dc:creator>Pieter Humphrey</dc:creator>
- <guid isPermaLink="false">3796 at http://www.springsource.org</guid>
-</item>
-<item>
- <title>Spring Tool Suite and Groovy/Grails Tool Suite 3.2.0.M2 released</title>
- <link>http://www.springsource.org/node/3795</link>
- <description>&lt;p&gt;Dear Spring Community,&lt;/p&gt;
-&lt;p&gt;I am happy to announce the second milestone release 3.2.0.M2 of the Spring Tool Suite (STS) and the Groovy/Grails Tool Suite (GGTS).&lt;/p&gt;
-&lt;p&gt;Highlights from this milestone build include:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;a lot of overall performance improvements, especially for the Spring tooling&lt;/li&gt;
-&lt;li&gt;improvements to Live Beans Graph feature&lt;/li&gt;
-&lt;li&gt;improved Spring Data code completion and validation&lt;/li&gt;
-&lt;li&gt;Grails 2.2 included in the GGTS distribution and available on the dashboard&lt;/li&gt;
-&lt;li&gt;Groovy 2.0.6 compiler now included in the GGTS distribution.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Both tool suites ship on top of the latest Eclipse Juno SR2 maintenance builds (not yet the final Eclipse Juno SR2 release). We still recommend to use the Eclipse-3.8-based versions of STS and GGTS for optimal performance.&lt;/p&gt;
-&lt;p&gt;The 3.2.0 release is scheduled for early March 2013 - shortly after the Eclipse Juno SR2 release.&lt;/p&gt;
-&lt;p&gt;To download the distributions, please go visit:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Spring Tool Suite: &lt;a href=&quot;http://www.springsource.org/sts&quot;&gt;http://www.springsource.org/sts&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Groovy/Grails Tool Suite: &lt;a href=&quot;http://grails.org/products/ggts&quot;&gt;http://grails.org/products/ggts&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Detailed new and noteworthy notes can be found here: &lt;a href=&quot;http://static.springsource.org/sts/nan/v320/NewAndNoteworthy-M2.html&quot;&gt;STS/GGTS 3.2.0.M2 New &amp;amp; Noteworthy&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Enjoy!&lt;/p&gt;
-</description>
- <comments>http://www.springsource.org/node/3795#comments</comments>
- <category domain="http://www.springsource.org/taxonomy/term/4">News and Announcements</category>
- <pubDate>Tue, 29 Jan 2013 12:48:05 +0000</pubDate>
- <dc:creator>Martin Lippert</dc:creator>
- <guid isPermaLink="false">3795 at http://www.springsource.org</guid>
 </item>
 </channel>
 </rss>

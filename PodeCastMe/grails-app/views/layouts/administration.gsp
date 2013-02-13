@@ -62,7 +62,7 @@
                 <div class="art-postcontent art-postcontent-0 clearfix"><div class="art-content-layout">
     <div class="art-content-layout-row">
     <div class="art-layout-cell layout-item-0" style="width: 100%" >
-        <h4>Administration</h4>
+        <h4>Administration : bienvenue  ${session?.user.pseudo}</h4>
 
     </div>
     </div>

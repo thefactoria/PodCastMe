@@ -50,7 +50,7 @@
                     
 </header>
 <nav class="art-nav clearfix">
- 
+    <ul class="art-hmenu"><li><a href="index.html">Mes PodCasts</a></li><li><a href="podcasts-2.html">Groupes</a></li><li><a href="contact.html" class="active">Contact</a></li></ul> 
     </nav>
 <div class="art-sheet clearfix">
             <div class="art-layout-wrapper clearfix">
@@ -62,7 +62,7 @@
                 <div class="art-postcontent art-postcontent-0 clearfix"><div class="art-content-layout">
     <div class="art-content-layout-row">
     <div class="art-layout-cell layout-item-0" style="width: 100%" >
-        <h4>PodCasts les plus populaires!</h4>
+        <h4> bienvenue  ${session?.user.pseudo}</h4>
 
     </div>
     </div>

@@ -12,27 +12,27 @@
 		<link>
 			<name>.link0</name>
 			<type>2</type>
-			<location>C:/Users/TOSHIBA/.groovy/greclipse/global_dsld_support</location>
+			<location>C:/Documents and Settings/morchedi/.groovy/greclipse/global_dsld_support</location>
 		</link>
 		<link>
 			<name>.link1</name>
 			<type>2</type>
-			<location>C:/Users/TOSHIBA/Desktop/daly/springsource/ggts-3.1.0.RELEASE/plugins/org.codehaus.groovy_1.8.6.xx-20120921-2000-e42RELEASE/plugin_dsld_support</location>
+			<location>C:/Documents and Settings/morchedi/My Documents/Downloads/Programs/springsource/ggts-3.1.0.RELEASE/plugins/org.codehaus.groovy_1.8.6.xx-20120921-2000-e42RELEASE/plugin_dsld_support</location>
 		</link>
 		<link>
 			<name>.link2</name>
 			<type>2</type>
-			<location>C:/Users/TOSHIBA/Desktop/daly/springsource/grails-2.1.1/scripts</location>
+			<location>C:/Documents and Settings/morchedi/.grails/2.1.1/projects/PodCastMe/plugin-classes</location>
 		</link>
 		<link>
-			<name>.link4</name>
+			<name>.link7</name>
 			<type>2</type>
-			<location>C:/Users/TOSHIBA/Desktop/daly/springsource/ggts-3.1.0.RELEASE/plugins/org.grails.ide.eclipse.resources_3.1.0.201210040544-RELEASE/dsl-support</location>
+			<location>C:/Documents and Settings/morchedi/My Documents/Downloads/Programs/springsource/grails-2.1.1/scripts</location>
 		</link>
 		<link>
-			<name>.link5</name>
+			<name>.link9</name>
 			<type>2</type>
-			<location>C:/Users/TOSHIBA/.grails/2.1.1/projects/test/plugin-classes</location>
+			<location>C:/Documents and Settings/morchedi/My Documents/Downloads/Programs/springsource/ggts-3.1.0.RELEASE/plugins/org.grails.ide.eclipse.resources_3.1.0.201210040544-RELEASE/dsl-support</location>
 		</link>
 	</linkedResources>
 </projectDescription>

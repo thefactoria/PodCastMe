@@ -21,7 +21,7 @@
 		<link>
 			<name>.link_to_grails_plugins</name>
 			<type>2</type>
-			<locationURI>GRAILS_ROOT/2.1.1/projects/PodCastMe/plugins</locationURI>
+			<location>C:/Documents and Settings/morchedi/.grails/2.1.1/projects/PodCastMe/plugins</location>
 		</link>
 	</linkedResources>
 </projectDescription>
