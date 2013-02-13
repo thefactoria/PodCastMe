@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<monitors>
-  <monitor contentTypes="web" port="8081" portId="0" serverId="VMware vFabric tc Server v2.5, v2.6, v2.7 at localhost" started="false"/>
-  <monitor port="8080" portId="0" serverId="VMware vFabric tc Server v2.5, v2.6, v2.7 at localhost" started="false"/>
-</monitors>
