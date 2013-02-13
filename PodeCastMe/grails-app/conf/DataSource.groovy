@@ -19,7 +19,7 @@ environments {
       
 			username = "root"
 			password = ""
-			dbCreate = "create"
+			dbCreate = "update"
 			driverClassName = "com.mysql.jdbc.Driver"
 			dialect = org.hibernate.dialect.MySQL5InnoDBDialect
 			url = "jdbc:mysql://localhost/db_podcastme"

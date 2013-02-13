@@ -54,5 +54,7 @@ grails.project.dependency.resolution = {
 		test ":code-coverage:1.2.5"
 		test ":spock:0.7"
         compile ':cache:1.0.0'
+		//Codenarc
+		compile ":codenarc:0.18"
     }
 }
