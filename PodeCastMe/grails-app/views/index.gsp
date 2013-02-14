@@ -35,11 +35,9 @@
 	</p>	
 	</g:if>
 	<g:else>
-<<<<<<< HEAD
+
 	<g:form url="[controller:'user',action:'login']" id="login-form">
-=======
-	<g:form id="form1" url="[controller:'user',action:'login']">
->>>>>>> 51e9132cdaa1d7ece58192eb872ed3176da4129d
+
 	<table style="border-spacing : 10px; ">
 	<tr>
 	<td>Login : </td>
@@ -55,11 +53,9 @@
 	</tr>
 	<tr>
 	<td>
-<<<<<<< HEAD
+  <g:link controller="user" action="create">
 	<input type="submit" value="Connexion" name="envoyer" class="art-button"></input>
-=======
-	<g:link controller="user" action="create"><input type="submit" value="Connexion" class="art-button"></input></g:link>
->>>>>>> 51e9132cdaa1d7ece58192eb872ed3176da4129d
+  </g:link> 
 	</td>
 	</tr>
 	</table>
