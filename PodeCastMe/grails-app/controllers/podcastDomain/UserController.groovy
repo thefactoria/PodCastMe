@@ -6,6 +6,10 @@ class UserController {
 
     static allowedMethods = [save: "POST", update: "POST", delete: "POST"]
 
+	def inscription(){
+		render(view: "/user/edit.gsp")
+	}
+	
     def index() {
         redirect(action: "list", params: params)
     }
@@ -64,12 +68,9 @@ class UserController {
 				//redirect(action: "list", params: params)
 			} else {
 			flash.message = "User not found"
-			render(view: "/layouts/inscription.gsp")
+			redirect(action: "create")
 			}
-		} else if (session.user) {
-		// don't allow login while user is logged in
-		render(view:"/index2.gsp")
-		}
+		} 
 	}
 	
 	def logout = {

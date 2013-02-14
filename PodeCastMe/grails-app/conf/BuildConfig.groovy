@@ -62,9 +62,13 @@ grails.project.dependency.resolution = {
 		test ":geb:0.6.0"
         compile ':cache:1.0.0'
 		//Codenarc
+<<<<<<< HEAD
 		compile ":codenarc:0.18"
 
 
 
+=======
+		//compile ":codenarc:0.18"
+>>>>>>> 51e9132cdaa1d7ece58192eb872ed3176da4129d
     }
 }
