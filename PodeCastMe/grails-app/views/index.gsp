@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html dir="ltr" lang="en-US"><head>
     <meta charset="utf-8">
-    <title>Nouvelle Page</title>
+    <title id="page-title">Authentification</title>
     <meta name="viewport" content="initial-scale = 1.0, maximum-scale = 1.0, user-scalable = no, width = device-width">
 
     <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
@@ -35,23 +35,23 @@
 	</p>	
 	</g:if>
 	<g:else>
-	<g:form url="[controller:'user',action:'login']">
+	<g:form url="[controller:'user',action:'login']" id="login-form">
 	<table style="border-spacing : 10px; ">
 	<tr>
 	<td>Login : </td>
 	<td>
-	<input name="pseudo" type="text" ></input>
+	<input name="username" type="text" ></input>
 	</td>
 	</tr>
 	<tr>
 	<td>Password : </td>
 	<td>
-	<input name ="passwd" type="text"></input>
+	<input name ="password" type="text"></input>
 	</td>
 	</tr>
 	<tr>
 	<td>
-	<input type="submit" value="Connexion" class="art-button"></input>
+	<input type="submit" value="Connexion" name="envoyer" class="art-button"></input>
 	</td>
 	</tr>
 	</table>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html dir="ltr" lang="en-US"><head>
     <meta charset="utf-8">
-    <title>Accueil</title>
+    <title id="page-title">Accueil</title>
    
    <meta name="viewport" content="initial-scale = 1.0, maximum-scale = 1.0, user-scalable = no, width = device-width">
 

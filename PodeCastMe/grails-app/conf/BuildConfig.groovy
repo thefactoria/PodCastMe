@@ -35,6 +35,10 @@ grails.project.dependency.resolution = {
         // specify dependencies here under either 'build', 'compile', 'runtime', 'test' or 'provided' scopes eg.
 
         runtime 'mysql:mysql-connector-java:5.1.20'
+		test "org.codehaus.geb:geb-spock:0.6.0"
+		test "org.codehaus.geb:geb-junit4:0.6.0"
+
+	
     }
 
     plugins {
@@ -53,8 +57,14 @@ grails.project.dependency.resolution = {
 		//Test Code with Coverage plugin commande grails : test-app -coverage
 		test ":code-coverage:1.2.5"
 		test ":spock:0.7"
+		test "org.grails.plugins:geb:0.6.0"
+		//test fonctionnel avec GEB
+		test ":geb:0.6.0"
         compile ':cache:1.0.0'
 		//Codenarc
 		compile ":codenarc:0.18"
+
+
+
     }
 }
