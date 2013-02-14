@@ -53,9 +53,15 @@
 	</tr>
 	<tr>
 	<td>
+<<<<<<< HEAD
+  <g:link controller="user" action="create">
+	<input type="submit" value="Connexion" name="envoyer" class="art-button"></input>
+  </g:link> 
+=======
 
-	<g:link controller="user" action="create"><input type="submit" value="Connexion" name="envoyer" class="art-button"></input></g:link>
+	<g:link controller="user"><input type="submit" value="Connexion" name="envoyer" class="art-button"></input></g:link>
 
+>>>>>>> 6f14506327deec2d8d1f582517254cbf16aae4b3
 	</td>
 	</tr>
 	</table>
@@ -63,7 +69,7 @@
 	<table style="border-spacing : 10px; ">
 	<tr>
 	<td>
-	<g:link controller="user" action="create"><input type="submit" value="Connexion" class="art-button"></input></g:link>
+	<g:link controller="user" action="create"><input type="submit" value="Inscription" class="art-button"></input></g:link>
 	</td>
 	</tr>
 	</table>

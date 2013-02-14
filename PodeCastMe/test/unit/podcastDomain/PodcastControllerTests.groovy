@@ -36,9 +36,20 @@ class PodcastControllerTests {
 
     void testSave() {
         controller.save()
+
         assert model.podcastInstance != null
         assert view == '/podcast/create'
+
         response.reset()
+
+
+
+
+        populateValidParams(params)
+        controller.save()
+
+        assert controller.flash.message == null
+
 
     }
 
@@ -49,4 +60,103 @@ class PodcastControllerTests {
 		controller.delete()
 		assert Podcast.count() == 0
     }
+
+ 
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }

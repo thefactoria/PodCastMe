@@ -25,6 +25,7 @@ class ContactControllerTests {
         def model = controller.list()
 
         assert model.contactInstanceList.size() == 0
+        assert model.contactInstanceList != 0
         assert model.contactInstanceTotal == 0
     }
 
@@ -40,11 +41,125 @@ class ContactControllerTests {
 		assert view == '/contact/create'
 		response.reset()
     }
+        controller.save()
 
     void testDelete() {
         controller.save()
         assert model.contactInstance != null
         assert view == '/contact/create'
+
         response.reset()
+
+        populateValidParams(params)
+        controller.save()
+
+        assert response.redirectedUrl != '/contact/show/1'
+        assert controller.flash.message == null
+        assert Contact.count() != 1
     }
+
+
+  
+
+   
+
+   
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }

@@ -36,18 +36,131 @@ class UserControllerTests {
 
     void testSave() {
         controller.save()
+
         assert model.userInstance != null
         assert view == '/user/create'
+
         response.reset()
 
+
+
+        populateValidParams(params)
+        controller.save()
+        assert controller.flash.message == null
+
+
+
     }
+
+  
+	void testInscription(){
+		controller.inscription()
+		assert view =="/user/edit.gsp"
+	}
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	
 	void testLogout() {
 		session.invalidate()
 		assert session.user == null
+	void testLogin()
+	{   controller.login()
+		assert request.method != "POST"
+		
+	}
+	
+	void testLogout()
+	{   controller.logout()
+		assert session.user == null
+		assert  view == "/index"
+	
 	}
 	
  
+
+
+
+
+
+
+
 
     void testDelete() {
 		controller.save()
@@ -56,4 +169,25 @@ class UserControllerTests {
 		assert User.count() == 0
 
     }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }

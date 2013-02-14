@@ -36,15 +36,126 @@ class GroupeControllerTests {
 
     void testSave() {
         controller.save()
+
         assert model.groupeInstance != null
         assert view == '/groupe/create'
+
         response.reset()
     }
 
+
+
+
+
+
+
+
+
     void testDelete() {
+        populateValidParams(params)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         controller.save()
 		assert model.groupeInstance != null
 		controller.delete()
 		assert Groupe.count() == 0
+        controller.save()
+
+        assert controller.flash.message == null
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     }
 }
