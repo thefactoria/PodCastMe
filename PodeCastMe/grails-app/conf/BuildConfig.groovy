@@ -37,6 +37,7 @@ grails.project.dependency.resolution = {
         runtime 'mysql:mysql-connector-java:5.1.20'
 		test "org.codehaus.geb:geb-spock:0.6.0"
 		test "org.codehaus.geb:geb-junit4:0.6.0"
+		
 
 	
     }

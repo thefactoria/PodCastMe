@@ -53,9 +53,15 @@
 	</tr>
 	<tr>
 	<td>
+<<<<<<< HEAD
   <g:link controller="user" action="create">
 	<input type="submit" value="Connexion" name="envoyer" class="art-button"></input>
   </g:link> 
+=======
+
+	<g:link controller="user" action="create"><input type="submit" value="Connexion" name="envoyer" class="art-button"></input></g:link>
+
+>>>>>>> 6f14506327deec2d8d1f582517254cbf16aae4b3
 	</td>
 	</tr>
 	</table>

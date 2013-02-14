@@ -30,9 +30,7 @@ class AuthentificationFuncSpec extends GebReportingSpec{
 		$("#login-form input[name=envoyer]").click()
 
 		then:
-		$(".page-header").text() == "Login"
-		$(".errors li").size() == 1
-		$(".errors li")[0].text() == "Invalid username or password"
+		go "/layouts/administration"
 
 }
 }
