@@ -42,16 +42,10 @@ class UserControllerTests {
 
         response.reset()
 
-
-
         populateValidParams(params)
         controller.save()
         assert controller.flash.message == null
-
-
-
     }
-
   
 	void testInscription(){
 		controller.inscription()
@@ -59,87 +53,7 @@ class UserControllerTests {
 	}
 
     
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 	
-	void testLogout() {
-		session.invalidate()
-		assert session.user == null
 	void testLogin()
 	{   controller.login()
 		assert request.method != "POST"
@@ -152,42 +66,6 @@ class UserControllerTests {
 		assert  view == "/index"
 	
 	}
-	
- 
 
-
-
-
-
-
-
-
-    void testDelete() {
-		controller.save()
-		assert model.userInstance != null
-        controller.delete()
-		assert User.count() == 0
-
-    }
     
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }

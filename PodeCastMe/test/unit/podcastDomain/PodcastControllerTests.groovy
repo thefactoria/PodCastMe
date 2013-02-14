@@ -42,121 +42,15 @@ class PodcastControllerTests {
 
         response.reset()
 
-
-
-
         populateValidParams(params)
         controller.save()
 
         assert controller.flash.message == null
-
-
     }
 
 
-    void testDelete() {
- 		controller.save()
-		assert model.podcastInstance != null
-		controller.delete()
-		assert Podcast.count() == 0
-    }
 
  
 
    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }

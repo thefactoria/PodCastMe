@@ -24,7 +24,6 @@ class ContactControllerTests {
 
         def model = controller.list()
 
-        assert model.contactInstanceList.size() == 0
         assert model.contactInstanceList != 0
         assert model.contactInstanceTotal == 0
     }
@@ -36,15 +35,8 @@ class ContactControllerTests {
     }
 
     void testSave() {
-		controller.save()
-		assert model.contactInstance != null
-		assert view == '/contact/create'
-		response.reset()
-    }
         controller.save()
 
-    void testDelete() {
-        controller.save()
         assert model.contactInstance != null
         assert view == '/contact/create'
 
@@ -58,7 +50,6 @@ class ContactControllerTests {
         assert Contact.count() != 1
     }
 
-
   
 
    
@@ -66,100 +57,4 @@ class ContactControllerTests {
    
 
    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
